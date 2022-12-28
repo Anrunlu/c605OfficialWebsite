@@ -21,9 +21,7 @@
       <div class="col-10 q-gutter-lg text-center">
         <div class="person" v-for="(person, index) in members" :key="index">
           <q-avatar class="q-mx-auto shadow-1" size="110px">
-            <!-- <q-img
-              src="https://cyberdownload.anrunlu.net/2021412977-1671455043230.png"
-            /> -->
+            <q-img :src="person.avatar" />
           </q-avatar>
           <div class="name q-mt-sm text-subtitle1 text-weight-medium">
             {{ person.name }}
