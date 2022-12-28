@@ -76,21 +76,25 @@ const projectList = [
     _id: 0,
     name: "知新",
     icon: "img:https://zx-stu.anrunlu.net/favicon.ico",
+    themeColor: "primary",
   },
   {
     _id: 1,
     name: "守护曲园",
     icon: "img:https://cyberdownload.anrunlu.net/shqy",
+    themeColor: "positive",
   },
   {
     _id: 2,
     name: "疫先锋",
     icon: "apps",
+    themeColor: "accent",
   },
   {
     _id: 3,
     name: "学科竞赛",
     icon: "img:http://www.52jingsai.com/favicon.ico",
+    themeColor: "orange",
   },
 ];
 
@@ -148,6 +152,14 @@ const projectDetailsList = [
         title: "基于知识图谱的个性化教学平台",
         subtitle: "February 22, 1986",
         content: "",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E7%99%BB%E5%BD%95.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%202.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%203.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%204.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%205.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%206.png",
+        ],
       },
     ],
   },

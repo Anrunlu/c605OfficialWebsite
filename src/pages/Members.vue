@@ -10,8 +10,10 @@
               width="85%"
             />
           </q-avatar>
-          <div class="name q-mt-sm text-subtitle1 text-weight-medium">张三</div>
-          <div class="position">前端工程师</div>
+          <div class="name q-mt-sm text-subtitle1 text-weight-medium">
+            周子力
+          </div>
+          <div class="position">负责人</div>
         </div>
       </div>
     </div>
