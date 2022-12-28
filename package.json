@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "c605index",
   "productName": "c605index",
-  "author": "author",
+  "author": "anrunlu@163.com",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",

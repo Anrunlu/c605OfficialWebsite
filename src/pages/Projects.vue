@@ -36,7 +36,10 @@
           </div>
           <div class="text-body2">{{ currSelectedProject.description }}</div>
         </div>
+
+        <!-- 时间线 -->
         <q-timeline color="secondary">
+          <!-- 事件 -->
           <q-timeline-entry
             :title="event.title"
             :subtitle="event.subtitle"
@@ -45,17 +48,19 @@
             v-for="(event, index) in currSelectedProject.timeline"
             :key="index"
           >
-            <div v-html="event.content" class="q-mb-md"></div>
-            <div class="imgs q-gutter-md">
+            <!-- 事件内容描述 -->
+            <div v-html="event.content" class="q-mb-md text-subtitle1"></div>
+            <!-- 图片 -->
+            <div class="imgs row q-gutter-md">
               <q-img
+                class="col-11 col-md-3 shadow-1 cursor-pointer"
                 :src="img"
                 :ratio="16 / 9"
                 spinner-color="primary"
                 spinner-size="10px"
                 v-for="(img, index) in event.imgs"
                 :key="index"
-                width="25%"
-                class="shadow-2 cursor-pointer"
+                @click="showImg(index, event.imgs)"
               />
             </div>
           </q-timeline-entry>
@@ -116,6 +121,11 @@ const projectDetailsList = [
         title: "知新v2.0上线",
         subtitle: "2022年10月23日",
         content: "",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/2.0%E5%AD%A6%E7%94%9F%E7%99%BB%E5%BD%95.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/2.0%E4%BD%9C%E4%B8%9A%E6%89%B9%E6%94%B9.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/2.0%E4%BD%9C%E4%B8%9A%E6%89%B9%E6%94%B92.png",
+        ],
       },
       {
         title: "Event Title",
@@ -147,5 +157,22 @@ export default {
       projectList: projectList,
     };
   },
+
+  methods: {
+    showImg(index, imgList) {
+      this.$hevueImgPreview({
+        keyboard: true,
+        multiple: true,
+        nowImgIndex: index,
+        imgList: imgList,
+        clickMaskCLose: true,
+      });
+    },
+  },
 };
 </script>
+<style>
+.he-img-view {
+  max-width: 80% !important;
+}
+</style>
