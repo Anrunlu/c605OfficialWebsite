@@ -1,5 +1,6 @@
 <template>
   <q-page class="q-my-lg">
+    <!-- 项目列表 -->
     <div class="row q-my-lg justify-center">
       <div class="col-11 col-md-12">
         <q-tabs
@@ -20,12 +21,15 @@
         </q-tabs>
       </div>
     </div>
+
+    <!-- 项目详细信息 -->
     <div class="row justify-center">
       <div class="col-9">
-        <!-- 项目信息 -->
         <div>
           <div class="text-h5">
+            <!-- 项目名称 -->
             {{ currSelectedProject.name }}
+            <!-- 项目链接 -->
             <a
               :href="currSelectedProject.link"
               target="_blank"
@@ -34,6 +38,7 @@
               ><q-icon size="xs" name="open_in_new"
             /></a>
           </div>
+          <!-- 项目描述 -->
           <div class="text-body2">{{ currSelectedProject.description }}</div>
         </div>
 
@@ -48,9 +53,35 @@
             v-for="(event, index) in currSelectedProject.timeline"
             :key="index"
           >
+            <template v-slot:title>
+              <!-- 事件标题 -->
+              <div class="text-h6">{{ event.title }}</div>
+              <!-- 主要参与成员 -->
+              <div v-if="event.members.length > 0" class="q-mt-xs q-gutter-xs">
+                <q-chip
+                  square
+                  :dense="$q.screen.lt.sm"
+                  v-for="(member, index) in event.members"
+                  :key="index"
+                  class="cursor-pointer"
+                  size="sm"
+                  outline
+                >
+                  <q-avatar>
+                    <img :src="member.avatar" />
+                  </q-avatar>
+                  {{ member.name }}
+
+                  <q-tooltip>
+                    {{ member.position }}
+                  </q-tooltip>
+                </q-chip>
+              </div>
+            </template>
+
             <!-- 事件内容描述 -->
             <div v-html="event.content" class="q-mb-md text-subtitle1"></div>
-            <!-- 图片 -->
+            <!-- 图片描述 -->
             <div class="imgs row q-gutter-md">
               <q-img
                 class="col-11 col-md-3 shadow-1 cursor-pointer"
@@ -71,6 +102,7 @@
 </template>
 
 <script>
+// 项目列表
 const projectList = [
   {
     _id: 0,
@@ -98,6 +130,7 @@ const projectList = [
   },
 ];
 
+// 项目详细信息列表
 const projectDetailsList = [
   {
     _id: 0,
@@ -120,6 +153,14 @@ const projectDetailsList = [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E4%BD%9C%E4%B8%9A%E6%A6%82%E8%A7%881.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%AF%BC%E5%9B%BE.png",
         ],
+        members: [
+          {
+            name: "安润鲁",
+            avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+            position: "平台架构负责人、平台全栈开发",
+            description: "",
+          },
+        ],
       },
       {
         title: "知新运营一周年&v2.0上线",
@@ -135,23 +176,27 @@ const projectDetailsList = [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/2.0%E4%BD%9C%E4%B8%9A%E6%89%B9%E6%94%B9.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/2.0%E4%BD%9C%E4%B8%9A%E6%89%B9%E6%94%B92.png",
         ],
+        members: [],
       },
       {
-        title: "Event Title",
+        title: "知新平台v1.0上线",
         subtitle: "February 22, 1986",
         color: "orange",
         icon: "done_all",
         content: "",
+        members: [],
       },
       {
         title: "外语教学数据数字化平台",
         subtitle: "February 22, 1986",
         content: "",
+        members: [],
       },
       {
-        title: "基于知识图谱的个性化教学平台",
-        subtitle: "February 22, 1986",
-        content: "",
+        title: "基于知识图谱的个性化教学平台(知你)",
+        subtitle: "2018年08月28日—2020年09月01日",
+        icon: "military_tech",
+        content: `<p>作为知新平台的鼻祖，知你个性化教学平台是探索基于知识图谱的个性化教学的初次尝试。在这次的尝试中团队积累了宝贵的经验，实践也印证了数字化教学有着超高的效率和便捷性，是大势所趋。</p>`,
         imgs: [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E7%99%BB%E5%BD%95.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%202.png",
@@ -159,6 +204,15 @@ const projectDetailsList = [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%204.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%205.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%206.png",
+        ],
+        members: [
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "平台架构负责人、平台全栈开发",
+            description: "",
+          },
         ],
       },
     ],
@@ -171,26 +225,26 @@ const projectDetailsList = [
     link: "",
     timeline: [
       {
-        title: "v2.1开发",
-        subtitle: "2022年12月始",
-        icon: "switch_access_shortcut_add",
-        color: "positive",
-        content: `<p><span style="color:green">【新版本】</span>启动2.1版平台开发工作，2.1版将继承1.0版在UI设计和操作逻辑上的优点，也将继承在2.0版中已经开发完成的新功能和一些新的灵活的架构设计思路。这是平台开发道路上里程碑意义的事件，也是在探索新一代(指2.0及其后续版本)知新个性化教学平台的重要转折点🛥。</p>`,
+        title: "守护曲园",
+        subtitle: "2020年01月05日-至今",
+        icon: "home",
+        color: "brown",
+        content: `<p>这里是描述信息......</p>`,
         imgs: [
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E8%AF%BE%E7%A8%8B%E7%AE%A1%E7%90%86.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E9%A2%98%E9%9B%86%E7%AE%A1%E7%90%86.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E9%A2%98%E5%BA%93%E7%AE%A1%E7%90%86.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E9%A2%98%E7%9B%AE%E7%BC%96%E8%BE%91.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E4%BD%9C%E4%B8%9A%E6%A6%82%E8%A7%881.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%AF%BC%E5%9B%BE.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy1.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy2.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy3.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy4.jpg",
         ],
-      },
-      {
-        title: "Event Title",
-        subtitle: "February 22, 1986",
-        color: "orange",
-        icon: "done_all",
-        content: "",
+        members: [
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "负责人",
+            description: "",
+          },
+        ],
       },
     ],
   },
@@ -206,6 +260,7 @@ const projectDetailsList = [
         color: "orange",
         icon: "done_all",
         content: "",
+        members: [],
       },
     ],
   },
@@ -222,6 +277,7 @@ const projectDetailsList = [
         color: "orange",
         icon: "done_all",
         content: "",
+        members: [],
       },
     ],
   },
