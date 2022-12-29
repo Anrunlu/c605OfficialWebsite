@@ -280,12 +280,251 @@ const projectDetailsList = [
     link: "https://zx-stu.anrunlu.net",
     timeline: [
       {
-        title: "Event Title",
-        subtitle: "February 22, 1986",
-        color: "orange",
-        icon: "done_all",
-        content: "",
-        members: [],
+        title: "第十八届“挑战杯”曲阜师范大学大学生课外学术科技作品竞赛",
+        subtitle: "2022年10月07日-2023年06月30日",
+        color: "brown",
+        content:
+          "以“疫先锋——知识与数据双驱动的疫情防控与决策平台”作为此次的参赛项目。该平台实现了从疫情预警、流调分析到预案生成全过程数智化、自动化的疫情防控与决策功能。在项目提交之前，团队成员做了明确的分工，以保证高效率、高质量的完成比赛所需的提交材料。由于疫情政策的改变，团队后期对该平台做了一定的升级，以此来更好的适应当下的政策，同时更好的满足用户需求。",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy1.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy2.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy3.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy4.jpg",
+        ],
+        members: [
+          {
+            name: "王茂励",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师",
+            role: "teacher",
+            description: "网络空间安全学院院长",
+          },
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师",
+            role: "teacher",
+            description: "副教授",
+          },
+          {
+            name: "范瑞红",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师",
+            role: "teacher",
+            description: "网络空间安全学院书记",
+          },
+          {
+            name: "徐沛玉",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "项目负责人",
+            role: "student",
+            description: "物联网工程",
+          },
+          {
+            name: "李林",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "软件工程",
+          },
+          {
+            name: "安润鲁",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "智能数据",
+          },
+          {
+            name: "张珠琛",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "软件开发",
+          },
+          {
+            name: "田丰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "软件开发",
+          },
+          {
+            name: "王寒寒",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "软件开发",
+          },
+        ],
+      },
+      {
+        title: "山东省大学生科技创新大赛",
+        subtitle: "2022年10月28日-2022年12月15日",
+        icon: "home",
+        color: "brown",
+        content:
+          "此次比赛，一共有三个参赛作品，分别是——曲际岛--基于认知智能与智慧网络的大学社交元宇宙、疫先锋——知识与数据双驱动的疫情防控与决策平台、知新——个性化教学过程管理平台，这三个参赛作品分别由三位负责人带领。在这三个项目中，曲际岛项目的整改工作相对较多，所以比赛前的准备工作主要放在了该项目，时间紧任务重，不过由于团队成员合理的时间分配，顺利完成了比赛准备工作。",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy1.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy2.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy3.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy4.jpg",
+        ],
+        members: [
+          {
+            name: "王茂励",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师",
+            role: "teacher",
+            description: "网络空间安全学院院长",
+          },
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师",
+            role: "teacher",
+            description: "副教授",
+          },
+          {
+            name: "范瑞红",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师",
+            role: "teacher",
+            description: "网络空间安全学院书记",
+          },
+          {
+            name: "徐沛玉",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "项目负责人",
+            role: "student",
+            description: "物联网工程",
+          },
+          {
+            name: "李林",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "软件工程",
+          },
+          {
+            name: "安润鲁",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "智能数据",
+          },
+          {
+            name: "田丰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "软件工程",
+          },
+          {
+            name: "王寒寒",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "软件工程",
+          },
+        ],
+      },
+      {
+        title: "中国互联网“+”大学生创新创业大赛",
+        subtitle: "2022年3月28日-2022年11月15日",
+        icon: "home",
+        color: "brown",
+        content:
+          "此次比赛以“明冠沁心”——数字大脑平台作为比赛的参赛项目，该平台的设计意在体现当下个性化教学、因材施教的教学理念；在报名提交材料之前，团队成员做了具体的分工，工作主要分为两大部分——平台完善、参赛材料的编写。由于团队成员合理的合作，保证了参赛作品的高质量的完成。不负期待，该参赛作品取得了不错的成绩。经过这次比赛，参赛成员懂得了如何合作、如何独立解决问题、如何将学到的知识合理利用。",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy1.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy2.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy3.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy4.jpg",
+        ],
+        members: [
+          {
+            name: "王茂励",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师",
+            role: "teacher",
+            description: "网络空间安全学院院长",
+          },
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师",
+            role: "teacher",
+            description: "副教授",
+          },
+          {
+            name: "范瑞红",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师",
+            role: "teacher",
+            description: "网络空间安全学院书记",
+          },
+          {
+            name: "徐沛玉",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "项目负责人",
+            role: "student",
+            description: "物联网工程",
+          },
+          {
+            name: "李林",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "软件工程",
+          },
+          {
+            name: "张中健",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "软件工程",
+          },
+          {
+            name: "安润鲁",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "智能数据",
+          },
+          {
+            name: "张珠琛",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "团队成员",
+            role: "student",
+            description: "软件工程",
+          },
+        ],
       },
     ],
   },

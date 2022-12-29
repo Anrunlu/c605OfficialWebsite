@@ -7,7 +7,7 @@
     >
       <div class="col-10 q-gutter-lg text-center">
         <div
-          class="person"
+          class="person cursor-pointer"
           v-for="(person, index2) in group.members"
           :key="index2"
         >
