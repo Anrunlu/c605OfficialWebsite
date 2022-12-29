@@ -56,22 +56,38 @@ const memberGroups = [
     groupLevel: 3,
     members: [
       {
-        name: "安润鲁",
-        avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
-        position: "系统架构负责人",
+        name: "李林",
+        avatar:
+          "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
+        position: "全栈开发",
         description: "",
       },
       {
-        name: "王五",
-        avatar: "https://cdn.quasar.dev/img/avatar.png",
-        position: "前端工程师",
-        description: "我是王五，我是前端工程师",
+        name: "徐沛玉",
+        avatar:
+          "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+        position: "前端开发",
+        description: "",
       },
       {
-        name: "赵六",
-        avatar: "https://cdn.quasar.dev/img/avatar.png",
-        position: "后端工程师",
-        description: "我是赵六，我是后端工程师",
+        name: "张珠琛",
+        avatar:
+          "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
+        position: "前端开发",
+        description: "",
+      },
+      {
+        name: "田丰",
+        avatar:
+          "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+        position: "前端开发",
+        description: "",
+      },
+      {
+        name: "王寒寒",
+        avatar: "http://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+        position: "前端开发",
+        description: "",
       },
     ],
   },
