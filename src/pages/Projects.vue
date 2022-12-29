@@ -180,8 +180,8 @@ const projectDetailsList = [
       },
       {
         title: "知新平台v1.0上线",
-        subtitle: "February 22, 1986",
-        color: "orange",
+        subtitle: "2021年10月10日",
+        color: "primary",
         icon: "done_all",
         content: "",
         members: [],
@@ -190,6 +190,14 @@ const projectDetailsList = [
         title: "外语教学数据数字化平台",
         subtitle: "February 22, 1986",
         content: "",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/wy1.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/wy2.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/wy3.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/wy4.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/wy5.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/wy6.png",
+        ],
         members: [],
       },
       {
