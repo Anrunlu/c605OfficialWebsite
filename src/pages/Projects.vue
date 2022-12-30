@@ -19,6 +19,7 @@
             :key="index"
             :alert="project.alert ? project.alertColor : false"
             :alert-icon="project.alertIcon"
+            @click="handleChangeTabItem(project._id)"
           >
           </q-tab>
         </q-tabs>
@@ -323,7 +324,7 @@ const projectDetailsList = [
       {
         title: "第十八届“挑战杯”曲阜师范大学大学生课外学术科技作品竞赛",
         subtitle: "2022年10月07日-2023年06月30日",
-        color: "brown",
+        color: "orange",
         content:
           "以“疫先锋——知识与数据双驱动的疫情防控与决策平台”作为此次的参赛项目。该平台实现了从疫情预警、流调分析到预案生成全过程数智化、自动化的疫情防控与决策功能。在项目提交之前，团队成员做了明确的分工，以保证高效率、高质量的完成比赛所需的提交材料。由于疫情政策的改变，团队后期对该平台做了一定的升级，以此来更好的适应当下的政策，同时更好的满足用户需求。",
         imgs: [
@@ -413,7 +414,7 @@ const projectDetailsList = [
         title: "山东省大学生科技创新大赛",
         subtitle: "2022年10月28日-2022年12月15日",
         icon: "home",
-        color: "brown",
+        color: "orange",
         content:
           "此次比赛，一共有三个参赛作品，分别是——曲际岛--基于认知智能与智慧网络的大学社交元宇宙、疫先锋——知识与数据双驱动的疫情防控与决策平台、知新——个性化教学过程管理平台，这三个参赛作品分别由三位负责人带领。在这三个项目中，曲际岛项目的整改工作相对较多，所以比赛前的准备工作主要放在了该项目，时间紧任务重，不过由于团队成员合理的时间分配，顺利完成了比赛准备工作。",
         imgs: [
@@ -589,7 +590,23 @@ const projectDetailsList = [
     link: "https://zx-stu.anrunlu.net",
     timeline: [
       {
-        title: "Event Title",
+        title: "曲阜师范大学硕士研究生考试考场查询系统",
+        subtitle: "February 22, 1986",
+        color: "orange",
+        icon: "done_all",
+        content: "",
+        members: [
+          {
+            name: "安润鲁",
+            avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+            position: "平台架构负责人、平台全栈开发",
+            role: "primary",
+            description: "",
+          },
+        ],
+      },
+      {
+        title: "国际媒体话语分析平台",
         subtitle: "February 22, 1986",
         color: "orange",
         icon: "done_all",
@@ -605,20 +622,29 @@ export default {
   data() {
     return {
       currProjectId: 0,
-      currSelectedProject: projectDetailsList[0],
+      currSelectedProject: null,
       projectList: projectList,
     };
   },
 
-  watch: {
-    currProjectId: function (val) {
+  methods: {
+    handleChangeTabItem(val) {
+      // 切换项目
       this.currSelectedProject = projectDetailsList.find(
         (item) => item._id === val
       );
+      // 设置路由
+      this.$router.push(
+        {
+          path: "/projects",
+          query: {
+            id: val,
+          },
+        },
+        () => {}
+      );
     },
-  },
 
-  methods: {
     showImg(index, imgList) {
       this.$hevueImgPreview({
         keyboard: true,
@@ -629,8 +655,16 @@ export default {
       });
     },
   },
+
+  created() {
+    this.currProjectId = Number(this.$route.query.id) || 0;
+    this.currSelectedProject = projectDetailsList.find(
+      (item) => item._id === this.currProjectId
+    );
+  },
 };
 </script>
+
 <style>
 .he-img-view {
   max-width: 80% !important;
