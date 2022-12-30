@@ -33,10 +33,6 @@
             img-src="https://cyberdownload.anrunlu.net/2021412977-1671454997128.jpg"
           />
           <q-carousel-slide
-            :name="5"
-            img-src="https://cyberdownload.anrunlu.net/zhixin2.1shot/17thtiaozhanbei.png"
-          />
-          <q-carousel-slide
             :name="6"
             img-src="https://cyberdownload.anrunlu.net/zhixin2.1shot/IMG_20210919_101821.jpg"
           />
@@ -47,6 +43,10 @@
           <q-carousel-slide
             :name="8"
             img-src="https://cyberdownload.anrunlu.net/zhixin2.1shot/IMG_20211103_165151.jpg"
+          />
+          <q-carousel-slide
+            :name="5"
+            img-src="https://cyberdownload.anrunlu.net/zhixin2.1shot/17thtiaozhanbei.png"
           />
         </q-carousel>
       </div>
