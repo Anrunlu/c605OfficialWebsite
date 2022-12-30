@@ -51,7 +51,6 @@
           <q-item
             :to="link.path"
             clickable
-            exact
             v-for="(link, index) in tablinksData"
             :key="index"
             active-class="bg-blue-1 text-primary"
