@@ -19,9 +19,9 @@ const routes = [
         component: () => import("pages/Projects.vue"),
       },
       {
-        path: "joinus",
-        name: "joinus",
-        component: () => import("pages/Joinus.vue"),
+        path: "contact",
+        name: "contact",
+        component: () => import("pages/Contact.vue"),
       },
     ],
   },

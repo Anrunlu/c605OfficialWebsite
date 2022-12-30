@@ -24,32 +24,48 @@
             :icon="link.icon"
           />
         </q-tabs>
-        <!-- 手机端 -->
-        <q-btn-dropdown
-          flat
-          :label="currBtnDropdownLabel"
-          text-color="white"
+
+        <!-- 打开抽屉按钮，仅移动端 -->
+        <q-btn
           v-if="$q.platform.is.mobile"
-        >
-          <q-list>
-            <q-item
-              clickable
-              v-close-popup
-              v-for="(link, index) in tablinksData"
-              :key="index"
-              @click="handleBtnDropdownItemClick(link)"
-            >
-              <q-item-section avatar>
-                <q-icon :name="link.icon" />
-              </q-item-section>
-              <q-item-section>
-                <q-item-label>{{ link.label }}</q-item-label>
-              </q-item-section>
-            </q-item>
-          </q-list>
-        </q-btn-dropdown>
+          flat
+          round
+          color="white"
+          :icon="drawerLeft ? 'menu_open' : 'menu'"
+          @click="drawerLeft = !drawerLeft"
+        />
       </q-toolbar>
     </q-header>
+
+    <!-- 抽屉，仅移动端 -->
+    <q-drawer
+      side="left"
+      v-model="drawerLeft"
+      :width="200"
+      :breakpoint="500"
+      overlay
+      bordered
+    >
+      <q-scroll-area class="fit">
+        <q-list>
+          <q-item
+            :to="link.path"
+            clickable
+            exact
+            v-for="(link, index) in tablinksData"
+            :key="index"
+            active-class="bg-blue-1 text-primary"
+          >
+            <q-item-section avatar>
+              <q-icon :name="link.icon" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>{{ link.label }}</q-item-label>
+            </q-item-section>
+          </q-item>
+        </q-list>
+      </q-scroll-area>
+    </q-drawer>
 
     <q-page-container>
       <router-view />
@@ -75,8 +91,8 @@ const tablinksData = [
     icon: "science",
   },
   {
-    label: "加入我们",
-    path: "joinus",
+    label: "联系我们",
+    path: "contact",
     icon: "handshake",
   },
 ];
@@ -86,17 +102,13 @@ export default {
   components: {},
   data() {
     return {
+      drawerLeft: false,
       currTabRoute: "index",
       currBtnDropdownLabel: "首页",
       tablinksData: tablinksData,
     };
   },
 
-  methods: {
-    handleBtnDropdownItemClick(link) {
-      this.currBtnDropdownLabel = link.label;
-      this.$router.push(link.path);
-    },
-  },
+  methods: {},
 };
 </script>
