@@ -36,7 +36,25 @@
             :name="5"
             img-src="https://cyberdownload.anrunlu.net/zhixin2.1shot/17thtiaozhanbei.png"
           />
+          <q-carousel-slide
+            :name="6"
+            img-src="https://cyberdownload.anrunlu.net/zhixin2.1shot/IMG_20210919_101821.jpg"
+          />
+          <q-carousel-slide
+            :name="7"
+            img-src="https://cyberdownload.anrunlu.net/zhixin2.1shot/IMG_20211104_222537.jpg"
+          />
+          <q-carousel-slide
+            :name="8"
+            img-src="https://cyberdownload.anrunlu.net/zhixin2.1shot/IMG_20211103_165151.jpg"
+          />
         </q-carousel>
+      </div>
+    </div>
+
+    <div class="row justify-center q-mt-md">
+      <div class="col-10 text-center">
+        <h5>知识改变命运，奋斗成就未来</h5>
       </div>
     </div>
   </q-page>
