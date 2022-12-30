@@ -2,10 +2,12 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-avatar>
-          <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
+        <q-avatar color="white">
+          <img
+            src="https://cyberdownload.anrunlu.net/zhixin2.1shot/szdn1.png"
+          />
         </q-avatar>
-        <q-toolbar-title> 认知智能实验室 </q-toolbar-title>
+        <q-toolbar-title> 数字大脑团队 </q-toolbar-title>
 
         <q-tabs
           v-model="currTabRoute"
