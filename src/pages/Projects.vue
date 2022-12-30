@@ -65,10 +65,10 @@
                 <q-chip
                   square
                   :dense="$q.screen.lt.sm"
-                  v-for="(member, index) in event.members.filter(
+                  v-for="member in event.members.filter(
                     (member) => member.role == 'primary'
                   )"
-                  :key="index"
+                  :key="member.avatar"
                   class="cursor-pointer"
                   size="sm"
                   outline
