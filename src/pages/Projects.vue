@@ -113,7 +113,7 @@
             <!-- 图片描述 -->
             <div class="imgs row q-gutter-md">
               <q-img
-                class="col-11 col-md-3 shadow-1 cursor-pointer"
+                class="col-11 col-md-3 col-lg-2 shadow-1 cursor-pointer"
                 :src="img"
                 :ratio="16 / 9"
                 spinner-color="primary"
@@ -224,6 +224,14 @@ const projectDetailsList = [
         color: "primary",
         icon: "done_all",
         content: "",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-1n.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-2.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-3.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-4.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-5.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-6.png",
+        ],
         members: [],
       },
       {
