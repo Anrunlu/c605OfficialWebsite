@@ -1,44 +1,41 @@
 <template>
   <q-page>
     <div class="row justify-center q-mt-md">
-      <div class="col col-md-8">
+      <div class="col-11 col-md-10">
         <q-carousel
           v-model="slide"
-          transition-prev="scale"
-          transition-next="scale"
           swipeable
           animated
           control-color="white"
-          navigation
-          padding
-          arrows
-          height="300px"
+          :thumbnails="!$q.platform.is.mobile"
+          :arrows="$q.platform.is.mobile"
+          :navigation="$q.platform.is.mobile"
+          :autoplay="autoplay"
+          @mouseenter="autoplay = false"
+          @mouseleave="autoplay = true"
+          :height="$q.platform.is.mobile ? '20vh' : '55vh'"
           class="bg-primary text-white shadow-1 rounded-borders"
         >
-          <q-carousel-slide name="style" class="column no-wrap flex-center">
-            <q-icon name="style" size="56px" />
-            <div class="q-mt-md text-center">
-              {{ lorem }}
-            </div>
-          </q-carousel-slide>
-          <q-carousel-slide name="tv" class="column no-wrap flex-center">
-            <q-icon name="live_tv" size="56px" />
-            <div class="q-mt-md text-center">
-              {{ lorem }}
-            </div>
-          </q-carousel-slide>
-          <q-carousel-slide name="layers" class="column no-wrap flex-center">
-            <q-icon name="layers" size="56px" />
-            <div class="q-mt-md text-center">
-              {{ lorem }}
-            </div>
-          </q-carousel-slide>
-          <q-carousel-slide name="map" class="column no-wrap flex-center">
-            <q-icon name="terrain" size="56px" />
-            <div class="q-mt-md text-center">
-              {{ lorem }}
-            </div>
-          </q-carousel-slide>
+          <q-carousel-slide
+            :name="1"
+            img-src="https://cyberdownload.anrunlu.net/2021412977-1671454094549.jpg"
+          />
+          <q-carousel-slide
+            :name="2"
+            img-src="https://cyberdownload.anrunlu.net/2021412977-1671454225259.jpg"
+          />
+          <q-carousel-slide
+            :name="3"
+            img-src="https://cyberdownload.anrunlu.net/2021412977-1671454974728.jpg"
+          />
+          <q-carousel-slide
+            :name="4"
+            img-src="https://cyberdownload.anrunlu.net/2021412977-1671454997128.jpg"
+          />
+          <q-carousel-slide
+            :name="5"
+            img-src="https://cyberdownload.anrunlu.net/zhixin2.1shot/17thtiaozhanbei.png"
+          />
         </q-carousel>
       </div>
     </div>
@@ -50,9 +47,8 @@ export default {
   name: "Index",
   data() {
     return {
-      lorem:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut imperdiet nisi. Sed euismod, nisl vel ultricies aliquam, nunc nisl tincidunt nunc, eget aliquam nunc nisl eget nunc. Sed euismod, nisl vel ultricies aliquam, nunc nisl tincidunt nunc, eget aliquam nunc nisl eget nunc.",
-      slide: "style",
+      autoplay: true,
+      slide: 1,
     };
   },
 };
