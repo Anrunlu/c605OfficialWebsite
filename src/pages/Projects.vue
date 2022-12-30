@@ -196,7 +196,7 @@ const projectDetailsList = [
           {
             name: "安润鲁",
             avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
-            position: "平台架构负责人、平台全栈开发",
+            position: "平台架构负责人、全栈开发",
             role: "primary",
             description: "",
           },
@@ -216,7 +216,15 @@ const projectDetailsList = [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/2.0%E4%BD%9C%E4%B8%9A%E6%89%B9%E6%94%B9.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/2.0%E4%BD%9C%E4%B8%9A%E6%89%B9%E6%94%B92.png",
         ],
-        members: [],
+        members: [
+          {
+            name: "安润鲁",
+            avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+            position: "平台架构负责人、全栈开发",
+            role: "primary",
+            description: "",
+          },
+        ],
       },
       {
         title: "知新平台v1.0上线",
@@ -232,7 +240,15 @@ const projectDetailsList = [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-5.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-6.png",
         ],
-        members: [],
+        members: [
+          {
+            name: "安润鲁",
+            avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+            position: "平台架构负责人、全栈开发",
+            role: "primary",
+            description: "",
+          },
+        ],
       },
       {
         title: "外语教学数据数字化平台",
@@ -246,7 +262,31 @@ const projectDetailsList = [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/wy5.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/wy6.png",
         ],
-        members: [],
+        members: [
+          {
+            name: "安润鲁",
+            avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+            position: "平台架构负责人、全栈开发",
+            role: "primary",
+            description: "",
+          },
+          {
+            name: "李林",
+            avatar:
+              "http://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
+            position: "全栈开发",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师、平台运营",
+            role: "secondary",
+            description: "",
+          },
+        ],
       },
       {
         title: "基于知识图谱的个性化教学平台(知你)",
@@ -298,7 +338,7 @@ const projectDetailsList = [
             name: "周子力",
             avatar:
               "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
-            position: "负责人",
+            position: "负责人、全栈开发",
             role: "primary",
             description: "",
           },
