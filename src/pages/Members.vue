@@ -365,7 +365,7 @@ export default {
     return {
       currMembers: currMembers,
       allMembersJoinTimeline: allMembersJoinTimeline,
-      currCategory: "allMembers",
+      currCategory: "currMembers",
       categorys: [
         {
           name: "currMembers",
