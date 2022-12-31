@@ -255,7 +255,7 @@ const allMembersJoinTimeline = [
     members: [
       {
         name: "先溢",
-        avatar: "https://cyberdownload.anrunlu.net/%E5%85%88%E6%BA%A26.png",
+        avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/xianyi02.png",
         position: "2018级本科生",
         role: "primary",
         grade: "2018级",
@@ -271,14 +271,16 @@ const allMembersJoinTimeline = [
     members: [
       {
         name: "安润鲁",
-        avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+        avatar:
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E8%AF%81%E4%BB%B6%E7%85%A7_%E5%AE%891.png",
         position: "2019级本科生",
         role: "primary",
         description: "软件工程",
       },
       {
         name: "张中健",
-        avatar: "https://cyberdownload.anrunlu.net/zzj.png",
+        avatar:
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zhangzhongjian.png",
         position: "2019级本科生",
         role: "primary",
         description: "软件工程",
@@ -336,7 +338,6 @@ const allMembersJoinTimeline = [
   {
     title: "",
     subtitle: "2022年09月加入",
-    color: "red",
     content: ``,
     members: [
       {
