@@ -159,7 +159,7 @@ const projectList = [
   {
     _id: 3,
     name: "疫先锋",
-    icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/yixianf2.png",
+    icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/yxflogo.png",
     themeColor: "accent",
   },
   {
@@ -451,6 +451,14 @@ const projectDetailsList = [
             position: "前端开发",
             role: "primary",
             description: "软件工程",
+          },
+          {
+            name: "徐沛玉",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+            position: "团队成员",
+            role: "primary",
+            description: "物联网工程",
           },
           {
             name: "张珠琛",
