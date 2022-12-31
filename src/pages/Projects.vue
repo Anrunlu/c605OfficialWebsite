@@ -158,7 +158,7 @@ const projectList = [
   {
     _id: 3,
     name: "学科竞赛",
-    icon: "img:http://www.52jingsai.com/favicon.ico",
+    icon: "img:https://www.52jingsai.com/favicon.ico",
     themeColor: "orange",
   },
   {
@@ -179,7 +179,7 @@ const projectDetailsList = [
     link: "https://zx-stu.anrunlu.net",
     timeline: [
       {
-        title: "v2.1开发",
+        title: "知新v2.1开发",
         subtitle: "2022年12月始",
         icon: "switch_access_shortcut_add",
         color: "positive",
@@ -204,7 +204,7 @@ const projectDetailsList = [
       },
       {
         title: "知新运营一周年&v2.0上线",
-        subtitle: "2022年10月10日",
+        subtitle: "2022年10月10日-至今",
         icon: "cake",
         color: "red",
         content: `<p>🎉10月10日是知新平台运营一周年纪念日🎉，同时也是知新2.0版正式运营的第一天。
@@ -213,8 +213,9 @@ const projectDetailsList = [
           </p>`,
         imgs: [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/2.0%E5%AD%A6%E7%94%9F%E7%99%BB%E5%BD%95.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/2.0%E4%BD%9C%E4%B8%9A%E6%89%B9%E6%94%B9.png",
+          "https://cyberdownload.anrunlu.net/zx2.0-tea-11.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/2.0%E4%BD%9C%E4%B8%9A%E6%89%B9%E6%94%B92.png",
+          "https://cyberdownload.anrunlu.net/zx2.0-sj-1.jpeg",
         ],
         members: [
           {
@@ -224,21 +225,99 @@ const projectDetailsList = [
             role: "primary",
             description: "",
           },
+          {
+            name: "李林",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
+            position: "开发",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师、平台运营",
+            role: "secondary",
+            description: "",
+          },
         ],
       },
       {
-        title: "知新平台v1.0上线",
-        subtitle: "2021年10月10日",
+        title: "知新v1.x开发&运维",
+        subtitle: "2022年03月10日-至今",
+        color: "primary",
+        icon: "done_all",
+        content: "",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-4.png",
+          "https://cyberdownload.anrunlu.net/zx1.1-1.png",
+          "https://cyberdownload.anrunlu.net/zx1.1-2.png",
+          "https://cyberdownload.anrunlu.net/zx1.1-3.png",
+        ],
+        members: [
+          {
+            name: "李林",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
+            position: "全栈开发",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "徐沛玉",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+            position: "运维",
+            role: "primary",
+            description: "物联网工程",
+          },
+          {
+            name: "田丰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+            position: "运维",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "王寒寒",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+            position: "运维",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "安润鲁",
+            avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+            position: "平台架构负责人、全栈开发",
+            role: "primary",
+            description: "",
+          },
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师、平台运营",
+            role: "secondary",
+            description: "",
+          },
+        ],
+      },
+      {
+        title: "知新v1.0",
+        subtitle: "2021年10月10日-2022年3月10日",
         color: "primary",
         icon: "done_all",
         content: "",
         imgs: [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-1n.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-2.png",
+          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-2.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-3.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-4.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-5.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-6.png",
+          "https://cyberdownload.anrunlu.net/zx1.0-sj-1.jpeg",
         ],
         members: [
           {
@@ -246,13 +325,52 @@ const projectDetailsList = [
             avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
             position: "平台架构负责人、全栈开发",
             role: "primary",
+            description: "",
+          },
+          {
+            name: "张中健",
+            avatar: "https://cyberdownload.anrunlu.net/zzj.png",
+            position: "前端开发",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "李林",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
+            position: "全栈开发",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "陈杰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/%E8%AF%81%E4%BB%B6%E7%85%A7_%E9%99%88%E6%9D%B0.png",
+            position: "前端开发",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "徐沛玉",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+            position: "前端开发",
+            role: "primary",
+            description: "物联网工程",
+          },
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师、平台运营",
+            role: "secondary",
             description: "",
           },
         ],
       },
       {
         title: "外语教学数据数字化平台",
-        subtitle: "February 22, 1986",
+        subtitle: "2021年2月-至今",
         content: "",
         imgs: [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/wy1.png",
@@ -273,8 +391,39 @@ const projectDetailsList = [
           {
             name: "李林",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
             position: "全栈开发",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "张中健",
+            avatar: "https://cyberdownload.anrunlu.net/zzj.png",
+            position: "前端开发",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "张珠琛",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "田丰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "王寒寒",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+            position: "团队成员",
             role: "primary",
             description: "软件工程",
           },
@@ -310,6 +459,13 @@ const projectDetailsList = [
             role: "primary",
             description: "",
           },
+          {
+            name: "先溢",
+            avatar: "https://cyberdownload.anrunlu.net/%E5%85%88%E6%BA%A26.png",
+            position: "平台全栈开发",
+            role: "primary",
+            description: "",
+          },
         ],
       },
     ],
@@ -328,10 +484,12 @@ const projectDetailsList = [
         color: "brown",
         content: `<p>这里是描述信息......</p>`,
         imgs: [
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy1.jpg",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy2.jpg",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy3.jpg",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy4.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy-combined.002.png",
+          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy-combined.001.jpeg",
+          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy1.jpg",
+          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy2.jpg",
+          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy3.jpg",
+          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy4.jpg",
         ],
         members: [
           {
@@ -365,7 +523,7 @@ const projectDetailsList = [
   {
     _id: 3,
     name: "学科竞赛",
-    icon: "img:http://www.52jingsai.com/favicon.ico",
+    icon: "img:https://www.52jingsai.com/favicon.ico",
     description: "",
     link: "https://zx-stu.anrunlu.net",
     timeline: [
@@ -376,18 +534,18 @@ const projectDetailsList = [
         content:
           "以“疫先锋——知识与数据双驱动的疫情防控与决策平台”作为此次的参赛项目。该平台实现了从疫情预警、流调分析到预案生成全过程数智化、自动化的疫情防控与决策功能。在项目提交之前，团队成员做了明确的分工，以保证高效率、高质量的完成比赛所需的提交材料。由于疫情政策的改变，团队后期对该平台做了一定的升级，以此来更好的适应当下的政策，同时更好的满足用户需求。",
         imgs: [
-          "http://cyberdownload.anrunlu.net/2021412977-1671454863369.png",
-          "http://cyberdownload.anrunlu.net/2021412977-1671454846869.png",
-          "http://cyberdownload.anrunlu.net/2021412977-1671454520923.png",
-          "http://cyberdownload.anrunlu.net/2021412977-1671454388285.png",
-          "http://cyberdownload.anrunlu.net/2021412984-1672314103654.png",
-          "http://cyberdownload.anrunlu.net/2021412984-1672314097225.png",
+          "https://cyberdownload.anrunlu.net/2021412977-1671454863369.png",
+          "https://cyberdownload.anrunlu.net/2021412977-1671454846869.png",
+          "https://cyberdownload.anrunlu.net/2021412977-1671454520923.png",
+          "https://cyberdownload.anrunlu.net/2021412977-1671454388285.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672314103654.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672314097225.png",
         ],
         members: [
           {
             name: "王茂励",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455043230.png",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455043230.png",
             position: "指导老师",
             role: "secondary",
             description: "网络空间安全学院院长",
@@ -395,7 +553,7 @@ const projectDetailsList = [
           {
             name: "周子力",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
             position: "指导老师",
             role: "secondary",
             description: "副教授",
@@ -403,7 +561,7 @@ const projectDetailsList = [
           {
             name: "范瑞红",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455081085.png",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455081085.png",
             position: "指导老师",
             role: "secondary",
             description: "网络空间安全学院书记",
@@ -411,7 +569,7 @@ const projectDetailsList = [
           {
             name: "徐沛玉",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
             position: "项目负责人",
             role: "primary",
             description: "物联网工程",
@@ -419,7 +577,7 @@ const projectDetailsList = [
           {
             name: "李林",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
@@ -427,7 +585,7 @@ const projectDetailsList = [
           {
             name: "安润鲁",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455099712.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455099712.jpg",
             position: "团队成员",
             role: "primary",
             description: "智能数据",
@@ -435,7 +593,7 @@ const projectDetailsList = [
           {
             name: "张珠琛",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
@@ -443,7 +601,7 @@ const projectDetailsList = [
           {
             name: "田丰",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
@@ -451,7 +609,7 @@ const projectDetailsList = [
           {
             name: "王寒寒",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
@@ -466,18 +624,18 @@ const projectDetailsList = [
         content:
           "此次比赛，一共有三个参赛作品，分别是——曲际岛--基于认知智能与智慧网络的大学社交元宇宙、疫先锋——知识与数据双驱动的疫情防控与决策平台、知新——个性化教学过程管理平台，这三个参赛作品分别由三位负责人带领。在这三个项目中，曲际岛项目的整改工作相对较多，所以比赛前的准备工作主要放在了该项目，时间紧任务重，不过由于团队成员合理的时间分配，顺利完成了比赛准备工作。",
         imgs: [
-          "http://cyberdownload.anrunlu.net/2021412984-1672315115823.jpg",
-          "http://cyberdownload.anrunlu.net/2021412984-1672315108197.jpg",
-          "http://cyberdownload.anrunlu.net/2021412984-1672315102799.jpg",
-          "http://cyberdownload.anrunlu.net/2021412984-1672315089842.png",
-          "http://cyberdownload.anrunlu.net/2021412984-1672315070704.png",
-          "http://cyberdownload.anrunlu.net/2021412977-1671454933467.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672315115823.jpg",
+          "https://cyberdownload.anrunlu.net/2021412984-1672315108197.jpg",
+          "https://cyberdownload.anrunlu.net/2021412984-1672315102799.jpg",
+          "https://cyberdownload.anrunlu.net/2021412984-1672315089842.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672315070704.png",
+          "https://cyberdownload.anrunlu.net/2021412977-1671454933467.png",
         ],
         members: [
           {
             name: "王茂励",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455043230.png",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455043230.png",
             position: "指导老师",
             role: "secondary",
             description: "网络空间安全学院院长",
@@ -485,7 +643,7 @@ const projectDetailsList = [
           {
             name: "周子力",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
             position: "指导老师",
             role: "secondary",
             description: "副教授",
@@ -493,7 +651,7 @@ const projectDetailsList = [
           {
             name: "范瑞红",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455081085.png",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455081085.png",
             position: "指导老师",
             role: "secondary",
             description: "网络空间安全学院书记",
@@ -501,7 +659,7 @@ const projectDetailsList = [
           {
             name: "徐沛玉",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
             position: "项目负责人",
             role: "primary",
             description: "物联网工程",
@@ -509,7 +667,7 @@ const projectDetailsList = [
           {
             name: "李林",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
@@ -517,7 +675,7 @@ const projectDetailsList = [
           {
             name: "安润鲁",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455099712.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455099712.jpg",
             position: "团队成员",
             role: "primary",
             description: "智能数据",
@@ -525,7 +683,7 @@ const projectDetailsList = [
           {
             name: "张珠琛",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
@@ -533,7 +691,7 @@ const projectDetailsList = [
           {
             name: "田丰",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
@@ -541,7 +699,7 @@ const projectDetailsList = [
           {
             name: "王寒寒",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
@@ -556,18 +714,18 @@ const projectDetailsList = [
         content:
           "此次比赛以“明冠沁心”——数字大脑平台作为比赛的参赛项目，该平台的设计意在体现当下个性化教学、因材施教的教学理念；在报名提交材料之前，团队成员做了具体的分工，工作主要分为两大部分——平台完善、参赛材料的编写。由于团队成员合理的合作，保证了参赛作品的高质量的完成。不负期待，该参赛作品取得了不错的成绩。经过这次比赛，参赛成员懂得了如何合作、如何独立解决问题、如何将学到的知识合理利用。",
         imgs: [
-          "http://cyberdownload.anrunlu.net/2021412984-1672315807110.png",
-          "http://cyberdownload.anrunlu.net/2021412984-1672315803097.png",
-          "http://cyberdownload.anrunlu.net/2021412984-1672315798433.png",
-          "http://cyberdownload.anrunlu.net/2021412984-1672315794696.png",
-          "http://cyberdownload.anrunlu.net/2021412984-1672315791235.png",
-          "http://cyberdownload.anrunlu.net/2021412984-1672315786176.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672315807110.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672315803097.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672315798433.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672315794696.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672315791235.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672315786176.png",
         ],
         members: [
           {
             name: "王茂励",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455043230.png",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455043230.png",
             position: "指导老师",
             role: "secondary",
             description: "网络空间安全学院院长",
@@ -575,7 +733,7 @@ const projectDetailsList = [
           {
             name: "周子力",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
             position: "指导老师",
             role: "secondary",
             description: "副教授",
@@ -583,7 +741,7 @@ const projectDetailsList = [
           {
             name: "范瑞红",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455081085.png",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455081085.png",
             position: "指导老师",
             role: "secondary",
             description: "网络空间安全学院书记",
@@ -591,7 +749,7 @@ const projectDetailsList = [
           {
             name: "徐沛玉",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
             position: "项目负责人",
             role: "primary",
             description: "物联网工程",
@@ -599,7 +757,7 @@ const projectDetailsList = [
           {
             name: "李林",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
@@ -614,7 +772,7 @@ const projectDetailsList = [
           {
             name: "安润鲁",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455099712.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455099712.jpg",
             position: "团队成员",
             role: "primary",
             description: "智能数据",
@@ -622,7 +780,7 @@ const projectDetailsList = [
           {
             name: "张珠琛",
             avatar:
-              "http://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
+              "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
