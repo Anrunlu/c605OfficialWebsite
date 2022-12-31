@@ -106,54 +106,54 @@ const memberGroups = [
       },
     ],
   },
-  {
-    groupName: "系统架构负责人",
-    groupLevel: 2,
-    members: [
-      {
-        name: "张三",
-        avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-        position: "系统架构负责人",
-        description: "",
-      },
-    ],
-  },
-  {
-    groupName: "开发人员",
-    groupLevel: 3,
-    members: [
-      {
-        name: "李四",
-        avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-        position: "全栈开发",
-        description: "",
-      },
-      {
-        name: "王五",
-        avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-        position: "前端开发",
-        description: "",
-      },
-      {
-        name: "赵六",
-        avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-        position: "前端开发",
-        description: "",
-      },
-      {
-        name: "孙七",
-        avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-        position: "前端开发",
-        description: "",
-      },
-      {
-        name: "周八",
-        avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-        position: "前端开发",
-        description: "",
-      },
-    ],
-  },
+  // {
+  //   groupName: "系统架构负责人",
+  //   groupLevel: 2,
+  //   members: [
+  //     {
+  //       name: "张三",
+  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
+  //       position: "系统架构负责人",
+  //       description: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   groupName: "开发人员",
+  //   groupLevel: 3,
+  //   members: [
+  //     {
+  //       name: "李四",
+  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
+  //       position: "全栈开发",
+  //       description: "",
+  //     },
+  //     {
+  //       name: "王五",
+  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
+  //       position: "前端开发",
+  //       description: "",
+  //     },
+  //     {
+  //       name: "赵六",
+  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
+  //       position: "前端开发",
+  //       description: "",
+  //     },
+  //     {
+  //       name: "孙七",
+  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
+  //       position: "前端开发",
+  //       description: "",
+  //     },
+  //     {
+  //       name: "周八",
+  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
+  //       position: "前端开发",
+  //       description: "",
+  //     },
+  //   ],
+  // },
 ];
 
 export default {

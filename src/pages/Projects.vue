@@ -35,6 +35,7 @@
             {{ currSelectedProject.name }}
             <!-- 项目链接 -->
             <a
+              v-if="currSelectedProject.link"
               :href="currSelectedProject.link"
               target="_blank"
               rel="noopener noreferrer"
@@ -145,24 +146,30 @@ const projectList = [
   },
   {
     _id: 1,
+    name: "外语教学平台",
+    icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/wypt.png",
+    themeColor: "positive",
+  },
+  {
+    _id: 2,
     name: "守护曲园",
     icon: "img:https://cyberdownload.anrunlu.net/shqy",
     themeColor: "positive",
   },
   {
-    _id: 2,
+    _id: 3,
     name: "疫先锋",
     icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/yixianf2.png",
     themeColor: "accent",
   },
   {
-    _id: 3,
+    _id: 4,
     name: "学科竞赛",
-    icon: "img:https://www.52jingsai.com/favicon.ico",
+    icon: "img:http://www.52jingsai.com/favicon.ico",
     themeColor: "orange",
   },
   {
-    _id: 4,
+    _id: 5,
     name: "其他项目",
     icon: "apps",
     themeColor: "primary",
@@ -310,13 +317,15 @@ const projectDetailsList = [
         subtitle: "2021年10月10日-2022年3月10日",
         color: "primary",
         icon: "done_all",
-        content: "",
+        content:
+          "在学院领导的大力支持下，知新平台正式上线，平台的宗旨是为广大师生提供良好的教学辅助环境，力争成为具有鲜明特色的优秀教学平台。",
         imgs: [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-1n.png",
           // "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-2.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-3.png",
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-5.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-6.png",
+          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-6.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zx1.0-7.png",
           "https://cyberdownload.anrunlu.net/zx1.0-sj-1.jpeg",
         ],
         members: [
@@ -368,6 +377,46 @@ const projectDetailsList = [
           },
         ],
       },
+      {
+        title: "基于知识图谱的个性化教学平台(知你)",
+        subtitle: "2018年08月28日—2020年09月01日",
+        icon: "military_tech",
+        content: `<p>作为知新平台的鼻祖，知你个性化教学平台是探索基于知识图谱的个性化教学的初次尝试。在这次的尝试中团队积累了宝贵的经验，实践也印证了数字化教学有着超高的效率和便捷性，是大势所趋。</p>`,
+        imgs: [
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E7%99%BB%E5%BD%95.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%202.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%203.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%204.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%205.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%206.png",
+        ],
+        members: [
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "平台架构负责人、平台全栈开发",
+            role: "primary",
+            description: "",
+          },
+          {
+            name: "先溢",
+            avatar: "https://cyberdownload.anrunlu.net/%E5%85%88%E6%BA%A26.png",
+            position: "平台全栈开发",
+            role: "primary",
+            description: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    _id: 1,
+    name: "外语教学数据数字化平台",
+    icon: "img:https://cyberdownload.anrunlu.net/shqy",
+    description: "",
+    link: "",
+    timeline: [
       {
         title: "外语教学数据数字化平台",
         subtitle: "2021年2月-至今",
@@ -437,41 +486,10 @@ const projectDetailsList = [
           },
         ],
       },
-      {
-        title: "基于知识图谱的个性化教学平台(知你)",
-        subtitle: "2018年08月28日—2020年09月01日",
-        icon: "military_tech",
-        content: `<p>作为知新平台的鼻祖，知你个性化教学平台是探索基于知识图谱的个性化教学的初次尝试。在这次的尝试中团队积累了宝贵的经验，实践也印证了数字化教学有着超高的效率和便捷性，是大势所趋。</p>`,
-        imgs: [
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E7%99%BB%E5%BD%95.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%202.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%203.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%204.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%205.png",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E5%9B%BE%E7%89%87%206.png",
-        ],
-        members: [
-          {
-            name: "周子力",
-            avatar:
-              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
-            position: "平台架构负责人、平台全栈开发",
-            role: "primary",
-            description: "",
-          },
-          {
-            name: "先溢",
-            avatar: "https://cyberdownload.anrunlu.net/%E5%85%88%E6%BA%A26.png",
-            position: "平台全栈开发",
-            role: "primary",
-            description: "",
-          },
-        ],
-      },
     ],
   },
   {
-    _id: 1,
+    _id: 2,
     name: "守护曲园",
     icon: "img:https://cyberdownload.anrunlu.net/shqy",
     description: "",
@@ -482,7 +500,7 @@ const projectDetailsList = [
         subtitle: "2020年01月05日-至今",
         icon: "home",
         color: "brown",
-        content: `<p>这里是描述信息......</p>`,
+        content: `<p>2020年01月05日至今，为曲园教师提供健康信息填报服务。</p>`,
         imgs: [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy-combined.002.png",
           // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy-combined.001.jpeg",
@@ -505,13 +523,13 @@ const projectDetailsList = [
     ],
   },
   {
-    _id: 2,
+    _id: 3,
     name: "疫先锋",
     description: "",
-    link: "https://zx-stu.anrunlu.net",
+    link: "https://hsjc.anrunlu.net",
     timeline: [
       {
-        title: "Event Title",
+        title: "核酸检测信息查询平台",
         subtitle: "February 22, 1986",
         color: "orange",
         icon: "done_all",
@@ -521,11 +539,11 @@ const projectDetailsList = [
     ],
   },
   {
-    _id: 3,
+    _id: 4,
     name: "学科竞赛",
-    icon: "img:https://www.52jingsai.com/favicon.ico",
+    icon: "img:http://www.52jingsai.com/favicon.ico",
     description: "",
-    link: "https://zx-stu.anrunlu.net",
+    link: "",
     timeline: [
       {
         title: "第十八届“挑战杯”曲阜师范大学大学生课外学术科技作品竞赛",
@@ -624,12 +642,10 @@ const projectDetailsList = [
         content:
           "此次比赛，一共有三个参赛作品，分别是——曲际岛--基于认知智能与智慧网络的大学社交元宇宙、疫先锋——知识与数据双驱动的疫情防控与决策平台、知新——个性化教学过程管理平台，这三个参赛作品分别由三位负责人带领。在这三个项目中，曲际岛项目的整改工作相对较多，所以比赛前的准备工作主要放在了该项目，时间紧任务重，不过由于团队成员合理的时间分配，顺利完成了比赛准备工作。",
         imgs: [
-          "https://cyberdownload.anrunlu.net/2021412984-1672315115823.jpg",
-          "https://cyberdownload.anrunlu.net/2021412984-1672315108197.jpg",
-          "https://cyberdownload.anrunlu.net/2021412984-1672315102799.jpg",
           "https://cyberdownload.anrunlu.net/2021412984-1672315089842.png",
           "https://cyberdownload.anrunlu.net/2021412984-1672315070704.png",
           "https://cyberdownload.anrunlu.net/2021412977-1671454933467.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/qjd-combined-0.png",
         ],
         members: [
           {
@@ -715,9 +731,9 @@ const projectDetailsList = [
           "此次比赛以“明冠沁心”——数字大脑平台作为比赛的参赛项目，该平台的设计意在体现当下个性化教学、因材施教的教学理念；在报名提交材料之前，团队成员做了具体的分工，工作主要分为两大部分——平台完善、参赛材料的编写。由于团队成员合理的合作，保证了参赛作品的高质量的完成。不负期待，该参赛作品取得了不错的成绩。经过这次比赛，参赛成员懂得了如何合作、如何独立解决问题、如何将学到的知识合理利用。",
         imgs: [
           "https://cyberdownload.anrunlu.net/2021412984-1672315807110.png",
-          "https://cyberdownload.anrunlu.net/2021412984-1672315803097.png",
-          "https://cyberdownload.anrunlu.net/2021412984-1672315798433.png",
-          "https://cyberdownload.anrunlu.net/2021412984-1672315794696.png",
+          // "https://cyberdownload.anrunlu.net/2021412984-1672315803097.png",
+          // "https://cyberdownload.anrunlu.net/2021412984-1672315798433.png",
+          // "https://cyberdownload.anrunlu.net/2021412984-1672315794696.png",
           "https://cyberdownload.anrunlu.net/2021412984-1672315791235.png",
           "https://cyberdownload.anrunlu.net/2021412984-1672315786176.png",
         ],
@@ -790,17 +806,18 @@ const projectDetailsList = [
     ],
   },
   {
-    _id: 4,
+    _id: 5,
     name: "其他项目",
     description: "",
-    link: "https://zx-stu.anrunlu.net",
+    link: "",
     timeline: [
       {
         title: "曲阜师范大学硕士研究生考试考场查询系统",
-        subtitle: "February 22, 1986",
-        color: "orange",
+        subtitle: "2021年12月-至今",
+        color: "brown",
         icon: "done_all",
         content: "",
+        imgs: ["https://cyberdownload.anrunlu.net/zhixin2.1shot/yjskccx01.png"],
         members: [
           {
             name: "安润鲁",
@@ -814,7 +831,7 @@ const projectDetailsList = [
       {
         title: "国际媒体话语分析平台",
         subtitle: "February 22, 1986",
-        color: "orange",
+        color: "primary",
         icon: "done_all",
         content: "",
         members: [],
