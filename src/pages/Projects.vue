@@ -165,7 +165,7 @@ const projectList = [
   {
     _id: 4,
     name: "学科竞赛",
-    icon: "img:http://www.52jingsai.com/favicon.ico",
+    icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/jingsailogo.png",
     themeColor: "orange",
   },
   {
