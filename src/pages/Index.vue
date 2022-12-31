@@ -1,6 +1,6 @@
 <template>
-  <q-page>
-    <div class="row justify-center q-mt-md">
+  <q-page class="q-my-lg">
+    <div class="row justify-center">
       <div class="col-11 col-md-10">
         <q-carousel
           v-model="slide"
