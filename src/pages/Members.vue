@@ -166,70 +166,6 @@ const currMembers = [
   },
 ];
 
-const memberGroups = [
-  {
-    groupName: "负责人",
-    groupLevel: 1,
-    members: [
-      {
-        name: "周子力",
-        avatar:
-          "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
-        position: "负责人",
-        description: "",
-      },
-    ],
-  },
-  // {
-  //   groupName: "系统架构负责人",
-  //   groupLevel: 2,
-  //   members: [
-  //     {
-  //       name: "张三",
-  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-  //       position: "系统架构负责人",
-  //       description: "",
-  //     },
-  //   ],
-  // },
-  // {
-  //   groupName: "开发人员",
-  //   groupLevel: 3,
-  //   members: [
-  //     {
-  //       name: "李四",
-  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-  //       position: "全栈开发",
-  //       description: "",
-  //     },
-  //     {
-  //       name: "王五",
-  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-  //       position: "前端开发",
-  //       description: "",
-  //     },
-  //     {
-  //       name: "赵六",
-  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-  //       position: "前端开发",
-  //       description: "",
-  //     },
-  //     {
-  //       name: "孙七",
-  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-  //       position: "前端开发",
-  //       description: "",
-  //     },
-  //     {
-  //       name: "周八",
-  //       avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
-  //       position: "前端开发",
-  //       description: "",
-  //     },
-  //   ],
-  // },
-];
-
 const allMembersJoinTimeline = [
   {
     title: "",
@@ -298,6 +234,45 @@ const allMembersJoinTimeline = [
         avatar:
           "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
         position: "2020级本科生",
+        role: "primary",
+        description: "软件工程",
+      },
+    ],
+  },
+  {
+    title: "",
+    subtitle: "2021年04月加入",
+    color: "primary",
+    content: "",
+    members: [
+      {
+        name: "李佳欣",
+        avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/lijiaxin.png",
+        position: "2018级本科生",
+        role: "primary",
+        description: "软件工程",
+      },
+      {
+        name: "张毓莹",
+        avatar:
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/zhangyuying2.png",
+        position: "2018级本科生",
+        role: "primary",
+        description: "软件工程",
+      },
+    ],
+  },
+  {
+    title: "",
+    subtitle: "2021年05月加入",
+    color: "primary",
+    content: "",
+    members: [
+      {
+        name: "武小雨",
+        avatar:
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/mmexport1666348227758.jpg",
+        position: "2019级本科生",
         role: "primary",
         description: "软件工程",
       },
