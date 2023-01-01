@@ -55,7 +55,7 @@ export default {
   data() {
     return {
       autoplay: true,
-      slide: 1,
+      slide: 0,
       imgList,
       // 标语
       slogan: "知识改变命运，奋斗成就未来",
