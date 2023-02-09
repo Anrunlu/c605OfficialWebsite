@@ -11,6 +11,17 @@
         />
       </div>
     </div>
+
+    <!-- 底部信息 -->
+    <div class="row justify-center q-mt-xl">
+      <div class="col-11 col-md-10">
+        <div class="q-pa-md">
+          <div class="text-center text-subtitle1 text-grey">
+            <span>联系 QQ:1739046583 定制同款团队主页</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </q-page>
 </template>
 
