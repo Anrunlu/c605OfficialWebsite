@@ -147,14 +147,6 @@ const currMembers = [
         position: "开发负责人",
         description: "",
       },
-
-      {
-        name: "张珠琛",
-        avatar:
-          "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
-        position: "前端开发",
-        description: "",
-      },
       {
         name: "田丰",
         avatar:
@@ -315,6 +307,14 @@ const allMembersJoinTimeline = [
     subtitle: "2022年09月加入",
     content: ``,
     members: [
+      {
+        name: "张珠琛",
+        avatar:
+          "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
+        position: "2020级本科生",
+        role: "primary",
+        description: "软件工程",
+      },
       {
         name: "田丰",
         avatar:
