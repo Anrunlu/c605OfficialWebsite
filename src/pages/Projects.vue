@@ -137,7 +137,7 @@ const projectList = [
   {
     _id: 0,
     name: "知新",
-    icon: "img:https://zx-stu.anrunlu.net/favicon.ico",
+    icon: "img:https://stu.z-xin.net/favicon.ico",
     role: "primary",
     themeColor: "primary",
     alert: true,
@@ -181,9 +181,9 @@ const projectDetailsList = [
   {
     _id: 0,
     name: "知新个性化教学平台",
-    icon: "img:https://zx-stu.anrunlu.net/favicon.ico",
+    icon: "img:https://stu.z-xin.net/favicon.ico",
     description: "",
-    link: "https://zx-stu.anrunlu.net",
+    link: "https://stu.z-xin.net",
     timeline: [
       {
         title: "知新v2.1开发",
