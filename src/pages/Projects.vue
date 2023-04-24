@@ -156,12 +156,12 @@ const projectList = [
     icon: "img:https://cyberdownload.anrunlu.net/shqy",
     themeColor: "positive",
   },
-  {
-    _id: 3,
-    name: "疫先锋",
-    icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/yxflogo.png",
-    themeColor: "accent",
-  },
+  // {
+  //   _id: 3,
+  //   name: "疫先锋",
+  //   icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/yxflogo.png",
+  //   themeColor: "accent",
+  // },
   {
     _id: 4,
     name: "学科竞赛",
