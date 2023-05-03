@@ -130,7 +130,7 @@ const currMembers = [
       },
       {
         name: "王寒寒",
-        avatar: "http://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+        avatar: "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
         position: "秘书处成员",
         description: "",
       },
@@ -151,6 +151,26 @@ const currMembers = [
         name: "田丰",
         avatar:
           "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+        position: "前端开发",
+        description: "",
+      },
+    ],
+  },
+    {
+    groupName: "开发人员",
+    groupLevel: 4,
+    members: [
+      {
+        name: "战秀臣",
+        avatar:
+          "https://cyberdownload.anrunlu.net/Fja71fDDXqdRqSS6w8ew0SqrUfVl",
+        position: "前端开发",
+        description: "",
+      },
+      {
+        name: "张吉祥",
+        avatar:
+          "https://cyberdownload.anrunlu.net/FjJr0hPls5FtQ3gr1RG5ddhvIthd",
         position: "前端开发",
         description: "",
       },
@@ -326,10 +346,33 @@ const allMembersJoinTimeline = [
       {
         name: "王寒寒",
         avatar:
-          "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+          "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
         position: "2021级本科生",
         role: "primary",
         description: "软件工程",
+      },
+    ],
+  },
+    {
+    title: "",
+    subtitle: "2023年03月加入",
+    content: ``,
+    members: [
+      {
+        name: "战秀臣",
+        avatar:
+          "https://cyberdownload.anrunlu.net/Fja71fDDXqdRqSS6w8ew0SqrUfVl",
+        position: "2022级本科生",
+        role: "primary",
+        description: "网络空间安全",
+      },
+      {
+        name: "张吉祥",
+        avatar:
+          "https://cyberdownload.anrunlu.net/FjJr0hPls5FtQ3gr1RG5ddhvIthd",
+        position: "2022级本科生",
+        role: "primary",
+        description: "物联网工程",
       },
     ],
   },
