@@ -26,10 +26,10 @@
     </div>
 
     <q-tab-panels v-model="currCategory" animated>
-      <q-tab-panel name="currMembers">
-        <!-- 现任成员 -->
+      <q-tab-panel name="softMembers">
+        <!-- 软件成员 -->
         <div
-          v-for="(group, index) in currMembers"
+          v-for="(group, index) in softMembers"
           :key="index"
           class="row justify-center q-mt-md"
         >
@@ -50,6 +50,32 @@
           </div>
         </div>
       </q-tab-panel>
+
+      <q-tab-panel name="hardMembers">
+        <!-- 硬件成员 -->
+        <div
+          v-for="(group, index) in hardMembers"
+          :key="index"
+          class="row justify-center q-mt-md"
+        >
+          <div class="col-10 q-gutter-lg text-center">
+            <div
+              class="person cursor-pointer"
+              v-for="(person, index2) in group.members"
+              :key="index2"
+            >
+              <q-avatar class="q-mx-auto shadow-1" size="110px">
+                <q-img :src="person.avatar" />
+              </q-avatar>
+              <div class="name q-mt-sm text-subtitle1 text-weight-medium">
+                {{ person.name }}
+              </div>
+              <div class="position">{{ person.position }}</div>
+            </div>
+          </div>
+        </div>
+      </q-tab-panel>
+
       <!-- 全部成员 -->
       <q-tab-panel name="allMembers">
         <div class="row justify-center">
@@ -91,7 +117,7 @@
 </template>
 
 <script>
-const currMembers = [
+const softMembers = [
   {
     groupName: "负责人",
     groupLevel: 1,
@@ -176,6 +202,9 @@ const currMembers = [
       },
     ],
   },
+];
+const hardMembers=[
+
 ];
 
 const allMembersJoinTimeline = [
@@ -379,17 +408,23 @@ const allMembersJoinTimeline = [
 ];
 
 export default {
-  name: "Members",
+  name: "SoftMembers",
   data() {
     return {
-      currMembers: currMembers,
+      softMembers: softMembers,
+      hardMembers: hardMembers,
       allMembersJoinTimeline: allMembersJoinTimeline,
-      currCategory: "currMembers",
+      currCategory: "softMembers",
       categorys: [
         {
-          name: "currMembers",
-          label: "现任成员",
+          name: "softMembers",
+          label: "软件现任成员",
           icon: "person",
+        },
+        {
+          name: "hardMembers",
+          label: "硬件现任成员",
+          icon: "hardware",
         },
         {
           name: "allMembers",
