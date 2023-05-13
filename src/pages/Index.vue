@@ -41,12 +41,9 @@
 const imgList = [
   "https://cyberdownload.anrunlu.net/2021412977-1671454094549.jpg",
   "https://cyberdownload.anrunlu.net/2021412977-1671454225259.jpg",
-  "https://cyberdownload.anrunlu.net/2021412977-1671454974728.jpg",
   "https://cyberdownload.anrunlu.net/2021412977-1671454997128.jpg",
   "https://cyberdownload.anrunlu.net/zhixin2.1shot/IMG_20210919_101821.jpg",
-  "https://cyberdownload.anrunlu.net/zhixin2.1shot/IMG_20211104_222537.jpg",
   "https://cyberdownload.anrunlu.net/zhixin2.1shot/17thtiaozhanbei.png",
-  "https://cyberdownload.anrunlu.net/zhixin2.1shot/szdntdcd.png",
   "https://cyberdownload.anrunlu.net/zhixin2.1shot/IMG_20211103_165151.jpg",
 ];
 

@@ -148,41 +148,22 @@ const softMembers = [
     groupLevel: 3,
     members: [
       {
-        name: "徐沛玉",
+        name: "田丰",
         avatar:
-          "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
-        position: "秘书处负责人",
+          "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+        position: "开发负责人",
         description: "",
       },
       {
         name: "王寒寒",
-        avatar: "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
-        position: "秘书处成员",
+        avatar:
+          "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
+        position: "全栈开发",
         description: "",
       },
     ],
   },
   {
-    groupName: "开发人员",
-    groupLevel: 4,
-    members: [
-      {
-        name: "李林",
-        avatar:
-          "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
-        position: "开发负责人",
-        description: "",
-      },
-      {
-        name: "田丰",
-        avatar:
-          "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
-        position: "前端开发",
-        description: "",
-      },
-    ],
-  },
-    {
     groupName: "开发人员",
     groupLevel: 4,
     members: [
@@ -203,9 +184,7 @@ const softMembers = [
     ],
   },
 ];
-const hardMembers=[
-
-];
+const hardMembers = [];
 
 const allMembersJoinTimeline = [
   {
@@ -382,7 +361,7 @@ const allMembersJoinTimeline = [
       },
     ],
   },
-    {
+  {
     title: "",
     subtitle: "2023年03月加入",
     content: ``,
@@ -419,12 +398,12 @@ export default {
         {
           name: "softMembers",
           label: "软件现任成员",
-          icon: "person",
+          icon: "code",
         },
         {
           name: "hardMembers",
           label: "硬件现任成员",
-          icon: "hardware",
+          icon: "memory",
         },
         {
           name: "allMembers",
