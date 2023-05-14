@@ -204,7 +204,8 @@ const hardMembers = [
     members: [
       {
         name: "刘昶江",
-        avatar: "https://cyberdownload.anrunlu.net/Fsp0T1ZNTiO0PiGxb6wtEm_2zHfw",
+        avatar:
+          "https://cyberdownload.anrunlu.net/Fsp0T1ZNTiO0PiGxb6wtEm_2zHfw",
         position: "硬件开发总负责人",
         description: "",
       },
@@ -228,14 +229,14 @@ const hardMembers = [
         position: "硬件调试",
         description: "",
       },
-       {
+      {
         name: "刘梦杰",
         avatar:
           "https://cyberdownload.anrunlu.net/FjFUwj_5PhzcIXu6Dbz2A6uLobAy",
         position: "硬件调试",
         description: "",
       },
-       {
+      {
         name: "臧雨濛",
         avatar:
           "https://cyberdownload.anrunlu.net/FqkO3oMSOsMo6Bz8IZ0XBetW0Pcj",
@@ -262,14 +263,14 @@ const hardMembers = [
       //   position: "软件算法",
       //   description: "",
       // },
-       {
+      {
         name: "张建邦",
         avatar:
           "https://cyberdownload.anrunlu.net/FlKBwkRDl5ytQmv3GqquHGpoFpf5",
         position: "软件算法",
         description: "",
       },
-       {
+      {
         name: "林媛媛",
         avatar:
           "https://cyberdownload.anrunlu.net/FpBkAHiWzakQ2m7zWO9BKX70UtiL",
@@ -278,7 +279,7 @@ const hardMembers = [
       },
     ],
   },
-    {
+  {
     groupName: "文档图注",
     groupLevel: 5,
     members: [
@@ -536,22 +537,22 @@ export default {
       softMembers: softMembers,
       hardMembers: hardMembers,
       allMembersJoinTimeline: allMembersJoinTimeline,
-      currCategory: "hardMembers",
+      currCategory: "softMembers",
       categorys: [
         {
           name: "softMembers",
           label: "软件现任成员",
-          icon: "code",
+          icon: "img:https://cyberdownload.anrunlu.net/FmGE5axJP9MWX5UR5KaQD7JNI8MK",
         },
         {
           name: "hardMembers",
           label: "硬件现任成员",
-          icon: "memory",
+          icon: "img:https://cyberdownload.anrunlu.net/Fk2dugPw7NXm4xVqBOFXk3RzwOuK",
         },
         {
           name: "allMembers",
           label: "全部成员(以加入时间为序)",
-          icon: "people",
+          icon: "img:https://cyberdownload.anrunlu.net/Fh-ics2mk8KvnKdZf-99l6it7bXR",
         },
       ],
     };

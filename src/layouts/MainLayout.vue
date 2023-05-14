@@ -7,7 +7,7 @@
             src="https://cyberdownload.anrunlu.net/zhixin2.1shot/szdn1.png"
           />
         </q-avatar>
-        <q-toolbar-title> 数字大脑团队 </q-toolbar-title>
+        <q-toolbar-title> 认知智能实验室 </q-toolbar-title>
 
         <q-tabs
           v-model="currTabRoute"
