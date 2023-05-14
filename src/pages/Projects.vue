@@ -144,6 +144,12 @@ const projectList = [
     alertColor: "red",
     alertIcon: "military_tech",
   },
+   {
+    _id: 6,
+    name: "知新社区",
+    icon: "img:https://cyberdownload.anrunlu.net/FhnDygwJGv0-9_px0T-hjDtTnvZ8",
+    themeColor: "indigo",
+  },
   {
     _id: 1,
     name: "外语教学平台",
@@ -171,14 +177,8 @@ const projectList = [
   {
     _id: 5,
     name: "其他项目",
-    icon: "img:https://cyberdownload.anrunlu.net/FrqCZCofCO99p1xU-Rc-VHXzA3uL",
-    themeColor: "primary",
-  },
-  {
-    _id: 6,
-    name: "知新社区",
     icon: "img:https://cyberdownload.anrunlu.net/Ftrb_5EkNRmorFu1OCsxUzWu5GEk",
-    themeColor: "indigo",
+    themeColor: "primary",
   },
 ];
 
