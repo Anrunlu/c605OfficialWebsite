@@ -156,12 +156,12 @@ const projectList = [
     icon: "img:https://cyberdownload.anrunlu.net/shqy",
     themeColor: "positive",
   },
-  // {
-  //   _id: 3,
-  //   name: "疫先锋",
-  //   icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/yxflogo.png",
-  //   themeColor: "accent",
-  // },
+  {
+    _id: 3,
+    name: "核酸检测查询",
+    icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/yxflogo.png",
+    themeColor: "accent",
+  },
   {
     _id: 4,
     name: "学科竞赛",
@@ -531,100 +531,100 @@ const projectDetailsList = [
       },
     ],
   },
-  // {
-  //   _id: 3,
-  //   name: "疫先锋",
-  //   description: "",
-  //   link: "https://hsjc.darryllin.cn",
-  //   timeline: [
-  //     {
-  //       title: "疫先锋",
-  //       subtitle: "February 22, 1986",
-  //       color: "primary",
-  //       icon: "done_all",
-  //       content: "因时因地制宜，积极应对疫情变化，为社会提供服务。",
-  //       imgs: [
-  //         "https://cyberdownload.anrunlu.net/2021412977-1671454863369.png",
-  //         "https://cyberdownload.anrunlu.net/2021412977-1671454846869.png",
-  //         "https://cyberdownload.anrunlu.net/2021412977-1671454520923.png",
-  //         "https://cyberdownload.anrunlu.net/2021412977-1671454388285.png",
-  //         "https://cyberdownload.anrunlu.net/2021412984-1672314103654.png",
-  //         "https://cyberdownload.anrunlu.net/2021412984-1672314097225.png",
-  //       ],
-  //       members: [
-  //         {
-  //           name: "徐沛玉",
-  //           avatar:
-  //             "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
-  //           position: "项目负责人",
-  //           role: "primary",
-  //           description: "物联网工程",
-  //         },
-  //         {
-  //           name: "张珠琛",
-  //           avatar:
-  //             "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
-  //           position: "全栈开发",
-  //           role: "primary",
-  //           description: "软件工程",
-  //         },
-  //         {
-  //           name: "李林",
-  //           avatar:
-  //             "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
-  //           position: "后端开发",
-  //           role: "primary",
-  //           description: "软件工程",
-  //         },
-  //         {
-  //           name: "田丰",
-  //           avatar:
-  //             "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
-  //           position: "前端开发",
-  //           role: "primary",
-  //           description: "软件工程",
-  //         },
-  //         {
-  //           name: "王寒寒",
-  //           avatar:
-  //             "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
-  //           position: "前端开发",
-  //           role: "primary",
-  //           description: "软件工程",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       title: "核酸检测信息查询平台",
-  //       subtitle: "2022年05月",
-  //       color: "positive",
-  //       content:
-  //         "自2022年05月上线以来，为曲阜师范大学核酸检测学生保障工作提供了极大便利。",
-  //       imgs: [
-  //         "https://cyberdownload.anrunlu.net/zhixin2.1shot/hsjc02.png",
-  //         "https://cyberdownload.anrunlu.net/zhixin2.1shot/hsjc03.png",
-  //         "https://cyberdownload.anrunlu.net/zhixin2.1shot/hsjc04.png",
-  //       ],
-  //       members: [
-  //         {
-  //           name: "安润鲁",
-  //           avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
-  //           position: "平台架构负责人、全栈开发",
-  //           role: "primary",
-  //           description: "",
-  //         },
-  //         {
-  //           name: "周子力",
-  //           avatar:
-  //             "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
-  //           position: "指导老师、平台运营、全栈开发",
-  //           role: "secondary",
-  //           description: "",
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+  {
+    _id: 3,
+    name: "核酸检测查询",
+    description: "",
+    link: "",
+    timeline: [
+      // {
+      //   title: "核酸检测查询",
+      //   subtitle: "February 22, 1986",
+      //   color: "primary",
+      //   icon: "done_all",
+      //   content: "因时因地制宜，积极应对疫情变化，为社会提供服务。",
+      //   imgs: [
+      //     "https://cyberdownload.anrunlu.net/2021412977-1671454863369.png",
+      //     "https://cyberdownload.anrunlu.net/2021412977-1671454846869.png",
+      //     "https://cyberdownload.anrunlu.net/2021412977-1671454520923.png",
+      //     "https://cyberdownload.anrunlu.net/2021412977-1671454388285.png",
+      //     "https://cyberdownload.anrunlu.net/2021412984-1672314103654.png",
+      //     "https://cyberdownload.anrunlu.net/2021412984-1672314097225.png",
+      //   ],
+      //   members: [
+      //     {
+      //       name: "徐沛玉",
+      //       avatar:
+      //         "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+      //       position: "项目负责人",
+      //       role: "primary",
+      //       description: "物联网工程",
+      //     },
+      //     {
+      //       name: "张珠琛",
+      //       avatar:
+      //         "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
+      //       position: "全栈开发",
+      //       role: "primary",
+      //       description: "软件工程",
+      //     },
+      //     {
+      //       name: "李林",
+      //       avatar:
+      //         "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
+      //       position: "后端开发",
+      //       role: "primary",
+      //       description: "软件工程",
+      //     },
+      //     {
+      //       name: "田丰",
+      //       avatar:
+      //         "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+      //       position: "前端开发",
+      //       role: "primary",
+      //       description: "软件工程",
+      //     },
+      //     {
+      //       name: "王寒寒",
+      //       avatar:
+      //         "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+      //       position: "前端开发",
+      //       role: "primary",
+      //       description: "软件工程",
+      //     },
+      //   ],
+      // },
+      {
+        title: "核酸检测信息查询平台",
+        subtitle: "2022年05月",
+        color: "positive",
+        content:
+          "自2022年05月上线以来，为曲阜师范大学核酸检测学生保障工作提供了极大便利。",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/hsjc02.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/hsjc03.png",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/hsjc04.png",
+        ],
+        members: [
+          {
+            name: "安润鲁",
+            avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+            position: "平台架构负责人、全栈开发",
+            role: "primary",
+            description: "",
+          },
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师、平台运营、全栈开发",
+            role: "secondary",
+            description: "",
+          },
+        ],
+      },
+    ],
+  },
   {
     _id: 4,
     name: "学科竞赛",
