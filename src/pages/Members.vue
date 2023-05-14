@@ -144,7 +144,7 @@ const softMembers = [
     ],
   },
   {
-    groupName: "秘书处",
+    groupName: "开发人员",
     groupLevel: 3,
     members: [
       {
@@ -184,7 +184,142 @@ const softMembers = [
     ],
   },
 ];
-const hardMembers = [];
+const hardMembers = [
+  {
+    groupName: "负责人",
+    groupLevel: 1,
+    members: [
+      {
+        name: "周子力",
+        avatar:
+          "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+        position: "负责人",
+        description: "",
+      },
+    ],
+  },
+  {
+    groupName: "硬件开发总负责人",
+    groupLevel: 2,
+    members: [
+      {
+        name: "刘昶江",
+        avatar: "https://cyberdownload.anrunlu.net/Fsp0T1ZNTiO0PiGxb6wtEm_2zHfw",
+        position: "硬件开发总负责人",
+        description: "",
+      },
+    ],
+  },
+  {
+    groupName: "硬件调试",
+    groupLevel: 3,
+    members: [
+      {
+        name: "李伯瀚",
+        avatar:
+          "https://cyberdownload.anrunlu.net/Fk_NQwbkQqNBjyjWLkrvr6dXPX0n",
+        position: "硬件调试",
+        description: "",
+      },
+      {
+        name: "武铸华",
+        avatar:
+          "https://cyberdownload.anrunlu.net/FtVB8naPZXQCf8CMWX2HS_aDXKeu",
+        position: "硬件调试",
+        description: "",
+      },
+       {
+        name: "刘梦杰",
+        avatar:
+          "https://cyberdownload.anrunlu.net/FjFUwj_5PhzcIXu6Dbz2A6uLobAy",
+        position: "硬件调试",
+        description: "",
+      },
+       {
+        name: "臧雨濛",
+        avatar:
+          "https://cyberdownload.anrunlu.net/FqkO3oMSOsMo6Bz8IZ0XBetW0Pcj",
+        position: "硬件调试",
+        description: "",
+      },
+    ],
+  },
+  {
+    groupName: "软件算法",
+    groupLevel: 4,
+    members: [
+      {
+        name: "王竞祺",
+        avatar:
+          "https://cyberdownload.anrunlu.net/Fgk-xgWhKZ7WbNr2a28CfYZp-Cgp",
+        position: "软件算法",
+        description: "",
+      },
+      // {
+      //   name: "范越",
+      //   avatar:
+      //     "https://cdn.quasar.dev/img/boy-avatar.png",
+      //   position: "软件算法",
+      //   description: "",
+      // },
+       {
+        name: "张建邦",
+        avatar:
+          "https://cyberdownload.anrunlu.net/FlKBwkRDl5ytQmv3GqquHGpoFpf5",
+        position: "软件算法",
+        description: "",
+      },
+       {
+        name: "林媛媛",
+        avatar:
+          "https://cyberdownload.anrunlu.net/FpBkAHiWzakQ2m7zWO9BKX70UtiL",
+        position: "软件算法",
+        description: "",
+      },
+    ],
+  },
+    {
+    groupName: "文档图注",
+    groupLevel: 5,
+    members: [
+      {
+        name: "何璇",
+        avatar:
+          "https://cyberdownload.anrunlu.net/FgUACPfmwQUAcnxdWamrkybMML5W",
+        position: "文档图注",
+        description: "",
+      },
+      // {
+      //   name: "宫雨凡",
+      //   avatar:
+      //     "https://cdn.quasar.dev/img/boy-avatar.png",
+      //   position: "文档图注",
+      //   description: "",
+      // },
+      {
+        name: "万新康",
+        avatar:
+          "https://cyberdownload.anrunlu.net/Foe-_5c5yWizuZwDnX9irXv6UOel",
+        position: "文档图注",
+        description: "",
+      },
+      {
+        name: "张蕴之",
+        avatar:
+          "https://cyberdownload.anrunlu.net/Fvy6JoJgZA7KBQO-JOvQbxgdzFLx",
+        position: "文档图注",
+        description: "",
+      },
+      {
+        name: "牛健",
+        avatar:
+          "https://cyberdownload.anrunlu.net/FpA4doJDyDHSikTrG1eyUzZFTEnO",
+        position: "文档图注",
+        description: "",
+      },
+    ],
+  },
+];
 
 const allMembersJoinTimeline = [
   {
@@ -336,6 +471,14 @@ const allMembersJoinTimeline = [
     content: ``,
     members: [
       {
+        name: "刘昶江",
+        avatar:
+          "https://cyberdownload.anrunlu.net/Fsp0T1ZNTiO0PiGxb6wtEm_2zHfw",
+        position: "2020级本科生",
+        role: "primary",
+        description: "通信工程",
+      },
+      {
         name: "张珠琛",
         avatar:
           "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
@@ -393,7 +536,7 @@ export default {
       softMembers: softMembers,
       hardMembers: hardMembers,
       allMembersJoinTimeline: allMembersJoinTimeline,
-      currCategory: "softMembers",
+      currCategory: "hardMembers",
       categorys: [
         {
           name: "softMembers",

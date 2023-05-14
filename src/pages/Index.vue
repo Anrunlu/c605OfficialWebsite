@@ -41,10 +41,10 @@
 const imgList = [
   "https://cyberdownload.anrunlu.net/2021412977-1671454094549.jpg",
   "https://cyberdownload.anrunlu.net/2021412977-1671454225259.jpg",
-  "https://cyberdownload.anrunlu.net/2021412977-1671454997128.jpg",
-  "https://cyberdownload.anrunlu.net/zhixin2.1shot/IMG_20210919_101821.jpg",
+  "https://cyberdownload.anrunlu.net/lv_aKPAt-VveEV60arUdjrMlhqqf",
+  "https://cyberdownload.anrunlu.net/lpEj-ERc9VUV0uyPP0HQ00LL12jF",
   "https://cyberdownload.anrunlu.net/zhixin2.1shot/17thtiaozhanbei.png",
-  "https://cyberdownload.anrunlu.net/zhixin2.1shot/IMG_20211103_165151.jpg",
+  "https://cyberdownload.anrunlu.net/FqqVbq1xE87lIwJM0Lc11JgQAtci",
 ];
 
 export default {

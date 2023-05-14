@@ -2,9 +2,18 @@
   <q-page class="q-my-lg">
     <div class="row justify-center text-center">
       <div class="col-10">
-        <h5>加入我们</h5>
+        <div >
+          <h5>WebLab创新社
+            <img
+            src="https://cyberdownload.anrunlu.net/FtnuaZoLgkuCwzJo-btZM2y_zklA"
+            style="width: 27px"
+          />
+          </h5>
+          
+        </div>
+        <p>扫码加入WebLab创新社，遇见更好的自己。</p>
         <q-img
-          src="https://cyberdownload.anrunlu.net/zhixin2.1shot/zhaopin.jpg"
+          src="https://cyberdownload.anrunlu.net/FkyobaXI3g-TncrGa7RWpv_E7Evh"
           spinner-color="primary"
           spinner-size="82px"
           width="300px"

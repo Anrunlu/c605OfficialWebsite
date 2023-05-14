@@ -171,8 +171,14 @@ const projectList = [
   {
     _id: 5,
     name: "其他项目",
-    icon: "apps",
+    icon: "img:https://cyberdownload.anrunlu.net/FrqCZCofCO99p1xU-Rc-VHXzA3uL",
     themeColor: "primary",
+  },
+  {
+    _id: 6,
+    name: "知新社区",
+    icon: "img:https://cyberdownload.anrunlu.net/Ftrb_5EkNRmorFu1OCsxUzWu5GEk",
+    themeColor: "indigo",
   },
 ];
 
@@ -514,8 +520,8 @@ const projectDetailsList = [
           "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy-combined.002.png",
           // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy-combined.001.jpeg",
           // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy1.jpg",
-          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy2.jpg",
-          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy3.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy2.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy3.jpg",
           // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy4.jpg",
         ],
         members: [
@@ -1126,7 +1132,125 @@ const projectDetailsList = [
         subtitle: "2019年12月-至今",
         color: "primary",
         content: "",
-        members: [],
+        imgs: [
+          "https://cyberdownload.anrunlu.net/Fgafb3BrXXTWLs9r7KW1VkI-3P1s",
+          "https://cyberdownload.anrunlu.net/FtdTF-aE6QfpTynWMq6fl9CoFwgJ",
+        ],
+        members: [
+          {
+            name: "先溢",
+            avatar: "https://cyberdownload.anrunlu.net/%E5%85%88%E6%BA%A26.png",
+            position: "平台全栈开发",
+            role: "primary",
+            description: "",
+          },
+        ],
+      },
+      {
+        title: "智慧化城市毒品预警系统",
+        subtitle: "2018年10月-至今",
+        color: "green",
+        content: "",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/FvhCWw1J52c4Uj_f0Y_Bl9Sm_Nto",
+          "https://cyberdownload.anrunlu.net/Fv-ZrGA04fiE5_SY4JsLXkQDfDk1",
+          "https://cyberdownload.anrunlu.net/Fv_iitP28gCJtbb9AgmuZ6SmZpMN",
+          "https://cyberdownload.anrunlu.net/FnUQbHq7il8dIWRRJBw4jRCecY-U",
+        ],
+        members: [
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "负责人、全栈开发",
+            role: "primary",
+            description: "",
+          },
+          {
+            name: "先溢",
+            avatar: "https://cyberdownload.anrunlu.net/%E5%85%88%E6%BA%A26.png",
+            position: "平台全栈开发",
+            role: "primary",
+            description: "",
+          },
+        ],
+      },
+      {
+        title: "焊接示教系统",
+        subtitle: "2017年08月-至今",
+        color: "red",
+        content: "",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/FvW-Y883nGAPeEVAge88yerobppX",
+        ],
+        members: [
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "负责人、全栈开发",
+            role: "primary",
+            description: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    _id: 6,
+    name: "知新社区",
+    icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/wypt.png",
+    description: "",
+    link: "",
+    timeline: [
+      {
+        title: "知新社区",
+        subtitle: "2023年03月05日-至今",
+        icon: "group",
+        color: "pink-4",
+        content: `<p>2023年01月05日至今，为在校大学生提供日常交流、资源分享、课程答疑等服务。</p>`,
+        imgs: [
+          "https://cyberdownload.anrunlu.net/FuEErnrBhDppLxePpPk69TQ8W2Ud",
+            "https://cyberdownload.anrunlu.net/FmIMvjeN9FK-zSVNyFzFf8NKl_6F",
+            "https://cyberdownload.anrunlu.net/FsXHaIe6UlP36cIULYNbpcRPRChb",
+            "https://cyberdownload.anrunlu.net/FvbRx2KxVE4O526m_7f0zEPtXIof",
+        ],
+        members: [
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "负责人、全栈开发",
+            role: "primary",
+            description: "",
+          },
+          {
+            name: "安润鲁",
+            avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+            position: "平台架构负责人、全栈开发",
+            role: "primary",
+            description: "",
+          },
+          {
+            name: "田丰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+        ],
+      },
+      {
+        icon: "group",
+        color: "pink-4",
+        content: `<p>扫码加入知新社区</p>`,
+        imgs: [
+            "https://cyberdownload.anrunlu.net/FnTWekVKK0wuRnj-nX5Jd-oYnVHP"
+        ],
+        members: [
+
+        ],
       },
     ],
   },
