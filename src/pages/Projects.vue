@@ -144,7 +144,7 @@ const projectList = [
     alertColor: "red",
     alertIcon: "military_tech",
   },
-   {
+  {
     _id: 6,
     name: "知新社区",
     icon: "img:https://cyberdownload.anrunlu.net/FhnDygwJGv0-9_px0T-hjDtTnvZ8",
@@ -1128,6 +1128,27 @@ const projectDetailsList = [
         ],
       },
       {
+        title: "历史文化知识自动答疑平台",
+        subtitle: "2021年12月-至今",
+        color: "brown",
+        content: "",
+        imgs: [
+          "https://app.yinxiang.com/FileSharing.action?hash=1/647c75072887401a8cc5e4b73cfc9b7b-255677",
+          "https://app.yinxiang.com/FileSharing.action?hash=1/4413530452fe3a5f6def21c0b056e387-159582",
+          "https://app.yinxiang.com/FileSharing.action?hash=1/0821fd830104014970e99d0d21497e00-111457",
+        ],
+        members: [
+          {
+            name: "高士亮",
+            avatar:
+              "https://app.yinxiang.com/FileSharing.action?hash=1/28db0cff548f9cbf0dfeb0dbda27751e-47197",
+            position: "平台架构负责人、平台全栈开发",
+            role: "primary",
+            description: "",
+          },
+        ],
+      },
+      {
         title: "国际媒体话语分析平台",
         subtitle: "2019年12月-至今",
         color: "primary",
@@ -1140,6 +1161,13 @@ const projectDetailsList = [
           {
             name: "先溢",
             avatar: "https://cyberdownload.anrunlu.net/%E5%85%88%E6%BA%A26.png",
+            position: "平台全栈开发",
+            role: "primary",
+            description: "",
+          },
+          {
+            name: "林德雨",
+            avatar: "https://cdn.quasar.dev/img/boy-avatar.png",
             position: "平台全栈开发",
             role: "primary",
             description: "",
