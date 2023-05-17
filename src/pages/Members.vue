@@ -799,7 +799,7 @@ export default {
       researchMembers: researchMembers,
       postgradMembers: postgradMembers,
       allMembersJoinTimeline: allMembersJoinTimeline,
-      currCategory: "researchMembers",
+      currCategory: "softMembers",
       categorys: [
         {
           name: "softMembers",
