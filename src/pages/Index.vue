@@ -13,7 +13,7 @@
           :autoplay="autoplay"
           @mouseenter="autoplay = false"
           @mouseleave="autoplay = true"
-          :height="$q.platform.is.mobile ? '20vh' : '55vh'"
+          :height="$q.platform.is.mobile ? '20vh' : '84vh'"
           class="bg-primary text-white shadow-1 rounded-borders"
         >
           <q-carousel-slide
@@ -35,6 +35,7 @@
       </div>
     </div>
     <div>
+
       <q-card class="justify-center q-mx-md row">
         <div class="col-11 col-md-10">
           <h5 class="text-center">
@@ -74,14 +75,40 @@
           </div>
         </div>
       </q-card>
+
       <q-card class="justify-center q-mx-md row">
         <div class="col-11 col-md-10">
           <h5 class="text-center">WebLab创新社</h5>
+          <div class="justify-center q-mt-md row justify-around">
           <div class="imgStyle">
             <q-img
               src="https://cyberdownload.anrunlu.net/FkyobaXI3g-TncrGa7RWpv_E7Evh"
             >
             </q-img>
+          </div>
+          <div class="imgsStyle">
+              <q-carousel
+                v-model="slide3"
+                swipeable
+                animated
+                control-color="white"
+                :thumbnails="!$q.platform.is.mobile"
+                :arrows="$q.platform.is.mobile"
+                :navigation="$q.platform.is.mobile"
+                :autoplay="autoplay"
+                @mouseenter="autoplay = false"
+                @mouseleave="autoplay = true"
+                :height="$q.platform.is.mobile ? '20vh' : '55vh'"
+                class="bg-primary text-white shadow-1 rounded-borders"
+              >
+                <q-carousel-slide
+                  :name="index"
+                  :img-src="img"
+                  v-for="(img, index) in imgListClub"
+                  :key="index"
+                />
+              </q-carousel>
+            </div>
           </div>
         </div>
       </q-card>
@@ -92,11 +119,13 @@
 <script>
 //主页轮播图大照片
 const imgList = [
-  "https://cyberdownload.anrunlu.net/2021412977-1671454094549.jpg",
+  "https://cyberdownload.anrunlu.net/Fh6PfbkbUEA-KM8h3YryQfAyhimc",
   "https://cyberdownload.anrunlu.net/2021412977-1671454225259.jpg",
   "https://cyberdownload.anrunlu.net/lv_aKPAt-VveEV60arUdjrMlhqqf",
   "https://cyberdownload.anrunlu.net/lpEj-ERc9VUV0uyPP0HQ00LL12jF",
   "https://cyberdownload.anrunlu.net/zhixin2.1shot/17thtiaozhanbei.png",
+  "https://cyberdownload.anrunlu.net/luayEv10Zeo2RRpr8Q460xleJZPE",
+  "https://cyberdownload.anrunlu.net/lkaCM3GnkeuvNjmizmbz7H0VeBDp"
   // "https://cyberdownload.anrunlu.net/FqqVbq1xE87lIwJM0Lc11JgQAtci",
 ];
 
@@ -107,6 +136,9 @@ const imgListCommunity = [
   "https://cyberdownload.anrunlu.net/FsXHaIe6UlP36cIULYNbpcRPRChb",
   "https://cyberdownload.anrunlu.net/FvbRx2KxVE4O526m_7f0zEPtXIof",
 ];
+const imgListClub=[
+"https://cyberdownload.anrunlu.net/Fr7tzUw3-lHKoGR5JFPQnJDa1z9F",
+]
 
 export default {
   name: "Index",
@@ -118,6 +150,7 @@ export default {
       slide3: 1,
       imgList,
       imgListCommunity,
+      imgListClub,
       // 标语
       slogan: "知识改变命运，奋斗成就未来",
       // 团队描述
