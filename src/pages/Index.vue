@@ -35,12 +35,10 @@
       </div>
     </div>
     <div>
-      <q-card class="justify-center q-mt-md row">
+      <q-card class="justify-center q-mx-md row">
         <div class="col-11 col-md-10">
           <h5 class="text-center">
-            <a class="zXinSheQv" href="https://bbs.z-xin.net/">
-              知新生态——知新社区
-            </a>
+            <a class="zXinSheQv" href="https://bbs.z-xin.net/"> 知新社区 </a>
           </h5>
 
           <div class="justify-center q-mt-md row justify-around">
@@ -48,9 +46,6 @@
               <q-img
                 src="https://cyberdownload.anrunlu.net/FnTWekVKK0wuRnj-nX5Jd-oYnVHP"
               >
-                <div class="absolute-bottom text-subtitle1 text-center">
-                  知新生态——知新社区
-                </div>
               </q-img>
             </div>
             <div class="imgsStyle">
@@ -79,16 +74,13 @@
           </div>
         </div>
       </q-card>
-      <q-card class="justify-center q-mt-md row">
+      <q-card class="justify-center q-mx-md row">
         <div class="col-11 col-md-10">
-          <h5 class="text-center">知新生态——WebLab创新社</h5>
+          <h5 class="text-center">WebLab创新社</h5>
           <div class="imgStyle">
             <q-img
               src="https://cyberdownload.anrunlu.net/FkyobaXI3g-TncrGa7RWpv_E7Evh"
             >
-              <div class="absolute-bottom text-subtitle1 text-center">
-                知新生态——WebLab创新社
-              </div>
             </q-img>
           </div>
         </div>
@@ -100,7 +92,6 @@
 <script>
 //主页轮播图大照片
 const imgList = [
-
   "https://cyberdownload.anrunlu.net/2021412977-1671454094549.jpg",
   "https://cyberdownload.anrunlu.net/2021412977-1671454225259.jpg",
   "https://cyberdownload.anrunlu.net/lv_aKPAt-VveEV60arUdjrMlhqqf",
@@ -111,7 +102,6 @@ const imgList = [
 
 //知新社区照片
 const imgListCommunity = [
-"https://cyberdownload.anrunlu.net/FnTWekVKK0wuRnj-nX5Jd-oYnVHP",
   "https://cyberdownload.anrunlu.net/FuEErnrBhDppLxePpPk69TQ8W2Ud",
   "https://cyberdownload.anrunlu.net/FmIMvjeN9FK-zSVNyFzFf8NKl_6F",
   "https://cyberdownload.anrunlu.net/FsXHaIe6UlP36cIULYNbpcRPRChb",
@@ -141,6 +131,26 @@ export default {
             万人，涉及教学、科研、管理、服务等多个领域，已形成了一套完整的教学管理体系，为我校教学管理提供了一套可靠的技术支撑。
           </p>`,
     };
+  },
+
+  methods: {
+    Scrollbottom() {
+      let scrollTop =
+        document.documentElement.scrollTop || document.body.scrollTop;
+      let clientHeight = document.documentElement.clientHeight;
+      let scrollHeight = document.documentElement.scrollHeight;
+      if (scrollTop + clientHeight >= scrollHeight) {
+       this.$router.push("/projects")
+      }
+    },
+  },
+
+  created() {
+    window.addEventListener("scroll", this.Scrollbottom); //页面加载时监听滚动事件
+  },
+
+  destroyed() {
+    window.removeEventListener("scroll", this.Scrollbottom); //页面离开后销毁监听事件
   },
 };
 </script>
