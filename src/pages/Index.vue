@@ -34,65 +34,65 @@
         </div>
       </div>
     </div>
+    <div>
+      <q-card class="justify-center q-mt-md row">
+        <div class="col-11 col-md-10">
+          <h5 class="text-center">
+            <a class="zXinSheQv" href="https://bbs.z-xin.net/">
+              知新生态——知新社区
+            </a>
+          </h5>
 
-    <div class="justify-center q-mt-md row">
-      <div class="col-11 col-md-10">
-        <h5 class="text-center">
-          <a class="zXinSheQv" href="https://bbs.z-xin.net/">
-            知新生态——知新社区
-          </a>
-        </h5>
-
-        <div class="justify-center q-mt-md row justify-around">
+          <div class="justify-center q-mt-md row justify-around">
+            <div class="imgStyle">
+              <q-img
+                src="https://cyberdownload.anrunlu.net/FnTWekVKK0wuRnj-nX5Jd-oYnVHP"
+              >
+                <div class="absolute-bottom text-subtitle1 text-center">
+                  知新生态——知新社区
+                </div>
+              </q-img>
+            </div>
+            <div class="imgsStyle">
+              <q-carousel
+                v-model="slide1"
+                swipeable
+                animated
+                control-color="white"
+                :thumbnails="!$q.platform.is.mobile"
+                :arrows="$q.platform.is.mobile"
+                :navigation="$q.platform.is.mobile"
+                :autoplay="autoplay"
+                @mouseenter="autoplay = false"
+                @mouseleave="autoplay = true"
+                :height="$q.platform.is.mobile ? '20vh' : '55vh'"
+                class="bg-primary text-white shadow-1 rounded-borders"
+              >
+                <q-carousel-slide
+                  :name="index"
+                  :img-src="img"
+                  v-for="(img, index) in imgListCommunity"
+                  :key="index"
+                />
+              </q-carousel>
+            </div>
+          </div>
+        </div>
+      </q-card>
+      <q-card class="justify-center q-mt-md row">
+        <div class="col-11 col-md-10">
+          <h5 class="text-center">知新生态——WebLab创新社</h5>
           <div class="imgStyle">
             <q-img
-              src="https://cyberdownload.anrunlu.net/FnTWekVKK0wuRnj-nX5Jd-oYnVHP"
+              src="https://cyberdownload.anrunlu.net/FkyobaXI3g-TncrGa7RWpv_E7Evh"
             >
               <div class="absolute-bottom text-subtitle1 text-center">
-                知新生态——知新社区
+                知新生态——WebLab创新社
               </div>
             </q-img>
           </div>
-          <div class="imgsStyle"> 
-            <q-carousel
-              v-model="slide1"
-              swipeable
-              animated
-              control-color="white"
-              :thumbnails="!$q.platform.is.mobile"
-              :arrows="$q.platform.is.mobile"
-              :navigation="$q.platform.is.mobile"
-              :autoplay="autoplay"
-              @mouseenter="autoplay = false"
-              @mouseleave="autoplay = true"
-              :height="$q.platform.is.mobile ? '20vh' : '55vh'"
-              class="bg-primary text-white shadow-1 rounded-borders"
-            >
-              <q-carousel-slide
-                :name="index"
-                :img-src="img"
-                v-for="(img, index) in imgListCommunity"
-                :key="index"
-              />
-            </q-carousel>
-          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="justify-center q-mt-md row">
-      <div class="col-11 col-md-10">
-        <h5 class="text-center">知新生态——WebLab创新社</h5>
-        <div class="imgStyle">
-          <q-img
-            src="https://cyberdownload.anrunlu.net/FkyobaXI3g-TncrGa7RWpv_E7Evh"
-          >
-            <div class="absolute-bottom text-subtitle1 text-center">
-              知新生态——WebLab创新社
-            </div>
-          </q-img>
-        </div>
-      </div>
+      </q-card>
     </div>
   </q-page>
 </template>
@@ -100,6 +100,7 @@
 <script>
 //主页轮播图大照片
 const imgList = [
+
   "https://cyberdownload.anrunlu.net/2021412977-1671454094549.jpg",
   "https://cyberdownload.anrunlu.net/2021412977-1671454225259.jpg",
   "https://cyberdownload.anrunlu.net/lv_aKPAt-VveEV60arUdjrMlhqqf",
@@ -110,6 +111,7 @@ const imgList = [
 
 //知新社区照片
 const imgListCommunity = [
+"https://cyberdownload.anrunlu.net/FnTWekVKK0wuRnj-nX5Jd-oYnVHP",
   "https://cyberdownload.anrunlu.net/FuEErnrBhDppLxePpPk69TQ8W2Ud",
   "https://cyberdownload.anrunlu.net/FmIMvjeN9FK-zSVNyFzFf8NKl_6F",
   "https://cyberdownload.anrunlu.net/FsXHaIe6UlP36cIULYNbpcRPRChb",
@@ -150,7 +152,7 @@ export default {
 .imgStyle {
   width: 30%;
 }
-.imgsStyle{
+.imgsStyle {
   width: 65%;
 }
 </style>
