@@ -34,12 +34,14 @@
         </div>
       </div>
     </div>
-    <div>
 
-      <q-card class="justify-center q-mx-md row">
-        <div class="col-11 col-md-10">
+    <div class="row justify-center q-mt-lg">
+      <q-card class="col-11 col-md-10 no-shadow">
+        <div>
           <h5 class="text-center">
-            <a class="zXinSheQv" href="https://bbs.z-xin.net/"> 知新社区 </a>
+            <a class="zXinSheQv" href="https://bbs.z-xin.net/" target="_blank">
+              知新社区
+            </a>
           </h5>
 
           <div class="justify-center q-mt-md row justify-around">
@@ -51,18 +53,18 @@
             </div>
             <div class="imgsStyle">
               <q-carousel
-                v-model="slide1"
+                v-model="slide2"
                 swipeable
                 animated
                 control-color="white"
                 :thumbnails="!$q.platform.is.mobile"
                 :arrows="$q.platform.is.mobile"
                 :navigation="$q.platform.is.mobile"
-                :autoplay="autoplay"
+                :autoplay="false"
                 @mouseenter="autoplay = false"
                 @mouseleave="autoplay = true"
                 :height="$q.platform.is.mobile ? '20vh' : '55vh'"
-                class="bg-primary text-white shadow-1 rounded-borders"
+                class="bg-primary text-white rounded-borders"
               >
                 <q-carousel-slide
                   :name="index"
@@ -75,18 +77,20 @@
           </div>
         </div>
       </q-card>
+    </div>
 
-      <q-card class="justify-center q-mx-md row">
-        <div class="col-11 col-md-10">
+    <div class="row justify-center q-mt-lg">
+      <q-card class="col-11 col-md-10 no-shadow">
+        <div>
           <h5 class="text-center">WebLab创新社</h5>
           <div class="justify-center q-mt-md row justify-around">
-          <div class="imgStyle">
-            <q-img
-              src="https://cyberdownload.anrunlu.net/FkyobaXI3g-TncrGa7RWpv_E7Evh"
-            >
-            </q-img>
-          </div>
-          <div class="imgsStyle">
+            <div class="imgStyle">
+              <q-img
+                src="https://cyberdownload.anrunlu.net/FhAnBZQ3MoyTeM92Lt9B_yiZUszr"
+              >
+              </q-img>
+            </div>
+            <div class="imgsStyle">
               <q-carousel
                 v-model="slide3"
                 swipeable
@@ -99,7 +103,7 @@
                 @mouseenter="autoplay = false"
                 @mouseleave="autoplay = true"
                 :height="$q.platform.is.mobile ? '20vh' : '55vh'"
-                class="bg-primary text-white shadow-1 rounded-borders"
+                class="bg-primary text-white rounded-borders"
               >
                 <q-carousel-slide
                   :name="index"
@@ -125,7 +129,7 @@ const imgList = [
   "https://cyberdownload.anrunlu.net/lpEj-ERc9VUV0uyPP0HQ00LL12jF",
   "https://cyberdownload.anrunlu.net/zhixin2.1shot/17thtiaozhanbei.png",
   "https://cyberdownload.anrunlu.net/luayEv10Zeo2RRpr8Q460xleJZPE",
-  "https://cyberdownload.anrunlu.net/lkaCM3GnkeuvNjmizmbz7H0VeBDp"
+  "https://cyberdownload.anrunlu.net/lkaCM3GnkeuvNjmizmbz7H0VeBDp",
   // "https://cyberdownload.anrunlu.net/FqqVbq1xE87lIwJM0Lc11JgQAtci",
 ];
 
@@ -136,9 +140,9 @@ const imgListCommunity = [
   "https://cyberdownload.anrunlu.net/FsXHaIe6UlP36cIULYNbpcRPRChb",
   "https://cyberdownload.anrunlu.net/FvbRx2KxVE4O526m_7f0zEPtXIof",
 ];
-const imgListClub=[
-"https://cyberdownload.anrunlu.net/Fr7tzUw3-lHKoGR5JFPQnJDa1z9F",
-]
+const imgListClub = [
+  "https://cyberdownload.anrunlu.net/Fr7tzUw3-lHKoGR5JFPQnJDa1z9F",
+];
 
 export default {
   name: "Index",
@@ -146,8 +150,8 @@ export default {
     return {
       autoplay: true,
       slide1: 0,
-      slide2: 1,
-      slide3: 1,
+      slide2: 0,
+      slide3: 0,
       imgList,
       imgListCommunity,
       imgListClub,
@@ -167,24 +171,24 @@ export default {
   },
 
   methods: {
-    Scrollbottom() {
-      let scrollTop =
-        document.documentElement.scrollTop || document.body.scrollTop;
-      let clientHeight = document.documentElement.clientHeight;
-      let scrollHeight = document.documentElement.scrollHeight;
-      if (scrollTop + clientHeight >= scrollHeight) {
-       this.$router.push("/projects")
-      }
-    },
+    // Scrollbottom() {
+    //   let scrollTop =
+    //     document.documentElement.scrollTop || document.body.scrollTop;
+    //   let clientHeight = document.documentElement.clientHeight;
+    //   let scrollHeight = document.documentElement.scrollHeight;
+    //   if (scrollTop + clientHeight >= scrollHeight) {
+    //     this.$router.push("/projects");
+    //   }
+    // },
   },
 
-  created() {
-    window.addEventListener("scroll", this.Scrollbottom); //页面加载时监听滚动事件
-  },
+  // created() {
+  //   window.addEventListener("scroll", this.Scrollbottom); //页面加载时监听滚动事件
+  // },
 
-  destroyed() {
-    window.removeEventListener("scroll", this.Scrollbottom); //页面离开后销毁监听事件
-  },
+  // destroyed() {
+  //   window.removeEventListener("scroll", this.Scrollbottom); //页面离开后销毁监听事件
+  // },
 };
 </script>
 <style>

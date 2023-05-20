@@ -252,7 +252,7 @@ const hardMembers = [
       {
         name: "王艳娜",
         avatar:
-          "https://app.yinxiang.com/FileSharing.action?hash=1/71fe176e44f2df3235799def66c8eadf-742732",
+          "https://cyberdownload.anrunlu.net/Fk_1SDcWMlkXFZfdmiCi8Pv49pcs",
         position: "负责人",
         description: "",
       },
@@ -637,7 +637,6 @@ const allMembersJoinTimeline = [
     ],
   },
 ];
-
 const postgradMembers = [
   {
     title: "",
