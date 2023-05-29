@@ -213,6 +213,22 @@ const projectDetailsList = [
             role: "primary",
             description: "",
           },
+                    {
+            name: "田丰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+            position: "运维",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "王寒寒",
+            avatar:
+              "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
+            position: "运维",
+            role: "primary",
+            description: "软件工程",
+          },
         ],
       },
       {
@@ -296,7 +312,7 @@ const projectDetailsList = [
           {
             name: "王寒寒",
             avatar:
-              "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+              "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
             position: "运维",
             role: "primary",
             description: "软件工程",
@@ -486,7 +502,7 @@ const projectDetailsList = [
           {
             name: "王寒寒",
             avatar:
-              "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+              "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
@@ -593,7 +609,7 @@ const projectDetailsList = [
       //     {
       //       name: "王寒寒",
       //       avatar:
-      //         "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+      //         "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
       //       position: "前端开发",
       //       role: "primary",
       //       description: "软件工程",
@@ -719,7 +735,7 @@ const projectDetailsList = [
           {
             name: "王寒寒",
             avatar:
-              "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+              "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
@@ -805,7 +821,7 @@ const projectDetailsList = [
           {
             name: "王寒寒",
             avatar:
-              "https://cyberdownload.anrunlu.net/2021412977-1671455214709.jpg",
+              "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
             position: "团队成员",
             role: "primary",
             description: "软件工程",
