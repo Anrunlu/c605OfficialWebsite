@@ -146,7 +146,7 @@ const projectList = [
   },
   {
     _id: 6,
-    name: "知新社区",
+    name: "知新校园",
     icon: "img:https://cyberdownload.anrunlu.net/FhnDygwJGv0-9_px0T-hjDtTnvZ8",
     themeColor: "indigo",
   },
@@ -1295,13 +1295,13 @@ const projectDetailsList = [
   },
   {
     _id: 6,
-    name: "知新社区",
+    name: "知新校园",
     icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/wypt.png",
     description: "",
     link: "",
     timeline: [
       {
-        title: "知新社区",
+        title: "知新校园",
         subtitle: "2023年03月05日-至今",
         icon: "group",
         color: "pink-4",
@@ -1341,9 +1341,9 @@ const projectDetailsList = [
       {
         icon: "group",
         color: "pink-4",
-        content: `<p>扫码加入知新社区</p>`,
+        content: `<p>扫码加入知新校园</p>`,
         imgs: [
-          "https://cyberdownload.anrunlu.net/FnTWekVKK0wuRnj-nX5Jd-oYnVHP",
+          "https://cyberdownload.anrunlu.net/Fo5DfXemxNJeS2Ig4dis8wcFOc6A",
         ],
         members: [],
       },

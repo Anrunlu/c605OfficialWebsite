@@ -40,14 +40,14 @@
         <div>
           <h5 class="text-center">
             <a class="zXinSheQv" href="https://bbs.z-xin.net/" target="_blank">
-              知新社区
+              知新校园
             </a>
           </h5>
 
           <div class="justify-center q-mt-md row justify-around">
             <div class="imgStyle">
               <q-img
-                src="https://cyberdownload.anrunlu.net/FnTWekVKK0wuRnj-nX5Jd-oYnVHP"
+                src="https://cyberdownload.anrunlu.net/Fo5DfXemxNJeS2Ig4dis8wcFOc6A"
               >
               </q-img>
             </div>
