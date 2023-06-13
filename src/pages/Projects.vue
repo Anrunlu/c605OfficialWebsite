@@ -213,7 +213,7 @@ const projectDetailsList = [
             role: "primary",
             description: "",
           },
-                    {
+          {
             name: "田丰",
             avatar:
               "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
@@ -1128,9 +1128,63 @@ const projectDetailsList = [
     link: "",
     timeline: [
       {
+        title: "易图",
+        subtitle: "2023年06月-至今",
+        color: "red",
+        content: "",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/Fn1wlkHiCNhHet07hcc82bPVMQ1V",
+          "https://cyberdownload.anrunlu.net/Fo3n_JrmsRC_IBVXUR71gNugg84d",
+          "https://cyberdownload.anrunlu.net/Fs_mN1btwh0nNWNXLoS4SG7jLME-",
+          "https://cyberdownload.anrunlu.net/Fgj87wntgMIB2xHkj3ePtqoQP53_",
+        ],
+        members: [
+          {
+            name: "张吉祥",
+            avatar:
+              "https://cyberdownload.anrunlu.net/FjJr0hPls5FtQ3gr1RG5ddhvIthd",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "战秀臣",
+            avatar:
+              "https://cyberdownload.anrunlu.net/Fja71fDDXqdRqSS6w8ew0SqrUfVl",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+
+          {
+            name: "田丰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "安润鲁",
+            avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+            position: "平台架构负责人、平台全栈开发",
+            role: "primary",
+            description: "",
+          },
+          {
+            name: "王寒寒",
+            avatar:
+              "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+        ],
+      },
+      {
         title: "曲阜师范大学硕士研究生考试考场查询系统",
         subtitle: "2021年12月-至今",
-        color: "brown",
+        color: "pink",
         content: "",
         imgs: ["https://cyberdownload.anrunlu.net/zhixin2.1shot/yjskccx01.png"],
         members: [
