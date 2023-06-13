@@ -660,7 +660,6 @@ const projectDetailsList = [
         color: "",
         content: `<p>以“疫先锋——知识与数据双驱动的疫情防控与决策平台”作为此次的参赛项目。该平台实现了从疫情预警、流调分析到预案生成全过程数智化、自动化的疫情防控与决策功能。在项目提交之前，团队成员做了明确的分工，以保证高效率、高质量的完成比赛所需的提交材料。由于疫情政策的改变，团队后期对该平台做了一定的升级，以此来更好的适应当下的政策，同时更好的满足用户需求。</p>`,
         imgs: [
-          "https://cyberdownload.anrunlu.net/2021412977-1671454863369.png",
           "https://cyberdownload.anrunlu.net/2021412977-1671454846869.png",
           "https://cyberdownload.anrunlu.net/2021412977-1671454520923.png",
           "https://cyberdownload.anrunlu.net/2021412977-1671454388285.png",
