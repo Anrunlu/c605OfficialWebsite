@@ -47,7 +47,7 @@
           <div class="justify-center q-mt-md row justify-around">
             <div class="imgStyle">
               <q-img
-                src="https://cyberdownload.anrunlu.net/Fo5DfXemxNJeS2Ig4dis8wcFOc6A"
+                src="https://cyberdownload.anrunlu.net/FpAv0AMtyOGqd03rM2Oi5DOj9qll"
               >
               </q-img>
             </div>
@@ -137,10 +137,10 @@ const imgList = [
 
 //知新社区照片
 const imgListCommunity = [
-  "https://cyberdownload.anrunlu.net/FuEErnrBhDppLxePpPk69TQ8W2Ud",
+  "https://cyberdownload.anrunlu.net/FinHyHAKZsjQfCXKcoyeKtz4NytA",
   "https://cyberdownload.anrunlu.net/FmIMvjeN9FK-zSVNyFzFf8NKl_6F",
-  "https://cyberdownload.anrunlu.net/FsXHaIe6UlP36cIULYNbpcRPRChb",
-  "https://cyberdownload.anrunlu.net/FvbRx2KxVE4O526m_7f0zEPtXIof",
+  "https://cyberdownload.anrunlu.net/FmDwr-1uesjVzGHB-63a4UFuu_oe",
+  "https://cyberdownload.anrunlu.net/FinHyHAKZsjQfCXKcoyeKtz4NytA",
 ];
 const imgListClub = [
   "https://cyberdownload.anrunlu.net/Fr7tzUw3-lHKoGR5JFPQnJDa1z9F",

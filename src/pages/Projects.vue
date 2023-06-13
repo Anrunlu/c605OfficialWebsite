@@ -1127,7 +1127,7 @@ const projectDetailsList = [
     link: "",
     timeline: [
       {
-        title: "易图",
+        title: "易图检索平台",
         subtitle: "2023年06月-至今",
         color: "red",
         content: "",
@@ -1307,10 +1307,10 @@ const projectDetailsList = [
         color: "pink-4",
         content: `<p>2023年01月05日至今，为在校大学生提供日常交流、资源分享、课程答疑等服务。</p>`,
         imgs: [
-          "https://cyberdownload.anrunlu.net/FuEErnrBhDppLxePpPk69TQ8W2Ud",
+          "https://cyberdownload.anrunlu.net/FinHyHAKZsjQfCXKcoyeKtz4NytA",
           "https://cyberdownload.anrunlu.net/FmIMvjeN9FK-zSVNyFzFf8NKl_6F",
-          "https://cyberdownload.anrunlu.net/FsXHaIe6UlP36cIULYNbpcRPRChb",
-          "https://cyberdownload.anrunlu.net/FvbRx2KxVE4O526m_7f0zEPtXIof",
+          "https://cyberdownload.anrunlu.net/FmDwr-1uesjVzGHB-63a4UFuu_oe",
+          "https://cyberdownload.anrunlu.net/FinHyHAKZsjQfCXKcoyeKtz4NytA",
         ],
         members: [
           {
@@ -1343,7 +1343,7 @@ const projectDetailsList = [
         color: "pink-4",
         content: `<p>扫码加入知新校园</p>`,
         imgs: [
-          "https://cyberdownload.anrunlu.net/Fo5DfXemxNJeS2Ig4dis8wcFOc6A",
+          "https://cyberdownload.anrunlu.net/FpAv0AMtyOGqd03rM2Oi5DOj9qll",
         ],
         members: [],
       },
