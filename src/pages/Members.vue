@@ -283,7 +283,7 @@ const hardMembers = [
         description: "",
       },
       {
-        name: "武铸华",
+        name: "武铧涛",
         avatar:
           "https://cyberdownload.anrunlu.net/FtVB8naPZXQCf8CMWX2HS_aDXKeu",
         position: "硬件调试",
@@ -310,19 +310,19 @@ const hardMembers = [
     groupLevel: 4,
     members: [
       {
-        name: "王竞祺",
+        name: "王竟祺",
         avatar:
           "https://cyberdownload.anrunlu.net/Fgk-xgWhKZ7WbNr2a28CfYZp-Cgp",
         position: "软件算法",
         description: "",
       },
-      // {
-      //   name: "范越",
-      //   avatar:
-      //     "https://cdn.quasar.dev/img/boy-avatar.png",
-      //   position: "软件算法",
-      //   description: "",
-      // },
+      {
+        name: "范越",
+        avatar:
+          "https://cyberdownload.anrunlu.net/FkpyYQ-1zkh7roNIB-DMHYqlGFBW",
+        position: "软件算法",
+        description: "",
+      },
       {
         name: "张建邦",
         avatar:
