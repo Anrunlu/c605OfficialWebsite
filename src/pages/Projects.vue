@@ -111,7 +111,7 @@
 
             <!-- 事件内容描述 -->
             <div v-html="event.content" class="q-mb-md text-subtitle1"></div>
-            <!-- 图片描述 -->
+                        <!-- 图片描述 -->
             <div class="imgs row q-gutter-md">
               <q-img
                 class="col-11 col-md-3 col-lg-2 shadow-1 cursor-pointer"
@@ -124,6 +124,13 @@
                 @click="showImg(index, event.imgs)"
               />
             </div>
+            <div class="q-pa-md" v-if="event.videos">
+              <q-video
+                :ratio="16 / 9"
+                src="https://cyberdownload.anrunlu.net/f697001b-1062-4af7-b8e5-db0b4fbb71f6.mp4"
+              />
+            </div>
+
           </q-timeline-entry>
         </q-timeline>
       </div>
@@ -158,14 +165,14 @@ const projectList = [
   },
   {
     _id: 2,
-    name: "守护曲园",
-    icon: "img:https://cyberdownload.anrunlu.net/shqy",
+    name: "疫情守护平台",
+    icon: "img:https://cyberdownload.anrunlu.net/FmiwZS2QNegxxEK0931eWQqHDOhM",
     themeColor: "positive",
   },
   {
     _id: 3,
-    name: "核酸检测查询",
-    icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/yxflogo.png",
+    name: "迎新大屏",
+    icon: "img:https://cyberdownload.anrunlu.net/FoFhAapoO0ZZLePHEFRZmiYqa0WT",
     themeColor: "accent",
   },
   {
@@ -527,96 +534,6 @@ const projectDetailsList = [
     link: "",
     timeline: [
       {
-        title: "守护曲园",
-        subtitle: "2020年01月05日-至今",
-        icon: "home",
-        color: "brown",
-        content: `<p>2020年01月05日至今，为曲园教师提供健康信息填报服务。</p>`,
-        imgs: [
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy-combined.002.png",
-          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy-combined.001.jpeg",
-          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy1.jpg",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy2.jpg",
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy3.jpg",
-          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy4.jpg",
-        ],
-        members: [
-          {
-            name: "周子力",
-            avatar:
-              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
-            position: "负责人、全栈开发",
-            role: "primary",
-            description: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    _id: 3,
-    name: "核酸检测查询",
-    description: "",
-    link: "",
-    timeline: [
-      // {
-      //   title: "核酸检测查询",
-      //   subtitle: "February 22, 1986",
-      //   color: "primary",
-      //   icon: "done_all",
-      //   content: "因时因地制宜，积极应对疫情变化，为社会提供服务。",
-      //   imgs: [
-      //     "https://cyberdownload.anrunlu.net/2021412977-1671454863369.png",
-      //     "https://cyberdownload.anrunlu.net/2021412977-1671454846869.png",
-      //     "https://cyberdownload.anrunlu.net/2021412977-1671454520923.png",
-      //     "https://cyberdownload.anrunlu.net/2021412977-1671454388285.png",
-      //     "https://cyberdownload.anrunlu.net/2021412984-1672314103654.png",
-      //     "https://cyberdownload.anrunlu.net/2021412984-1672314097225.png",
-      //   ],
-      //   members: [
-      //     {
-      //       name: "徐沛玉",
-      //       avatar:
-      //         "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
-      //       position: "项目负责人",
-      //       role: "primary",
-      //       description: "物联网工程",
-      //     },
-      //     {
-      //       name: "张珠琛",
-      //       avatar:
-      //         "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
-      //       position: "全栈开发",
-      //       role: "primary",
-      //       description: "软件工程",
-      //     },
-      //     {
-      //       name: "李林",
-      //       avatar:
-      //         "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
-      //       position: "后端开发",
-      //       role: "primary",
-      //       description: "软件工程",
-      //     },
-      //     {
-      //       name: "田丰",
-      //       avatar:
-      //         "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
-      //       position: "前端开发",
-      //       role: "primary",
-      //       description: "软件工程",
-      //     },
-      //     {
-      //       name: "王寒寒",
-      //       avatar:
-      //         "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
-      //       position: "前端开发",
-      //       role: "primary",
-      //       description: "软件工程",
-      //     },
-      //   ],
-      // },
-      {
         title: "核酸检测信息查询平台",
         subtitle: "2022年05月",
         color: "positive",
@@ -640,6 +557,151 @@ const projectDetailsList = [
             avatar:
               "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
             position: "指导老师、平台运营、全栈开发",
+            role: "secondary",
+            description: "",
+          },
+        ],
+      },
+      {
+        title: "守护曲园",
+        subtitle: "2020年01月05日-至今",
+        icon: "img:https://cyberdownload.anrunlu.net/shqy",
+        color: "brown",
+        content: `<p>2020年01月05日至今，为曲园教师提供健康信息填报服务。</p>`,
+        imgs: [
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy-combined.002.png",
+          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy-combined.001.jpeg",
+          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy1.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy2.jpg",
+          "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy3.jpg",
+          // "https://cyberdownload.anrunlu.net/zhixin2.1shot/shqy4.jpg",
+        ],
+        members: [
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "负责人、全栈开发",
+            role: "primary",
+            description: "",
+          },
+        ],
+      },
+      {
+        title: "核酸检测查询",
+        subtitle: "February 22, 1986",
+        color: "primary",
+        icon: "img:https://cyberdownload.anrunlu.net/zhixin2.1shot/yxflogo.png",
+        content: "因时因地制宜，积极应对疫情变化，为社会提供服务。",
+        imgs: [
+          "https://cyberdownload.anrunlu.net/2021412977-1671454846869.png",
+          "https://cyberdownload.anrunlu.net/2021412977-1671454520923.png",
+          "https://cyberdownload.anrunlu.net/2021412977-1671454388285.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672314103654.png",
+          "https://cyberdownload.anrunlu.net/2021412984-1672314097225.png",
+        ],
+        members: [
+          {
+            name: "徐沛玉",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+            position: "项目负责人",
+            role: "primary",
+            description: "物联网工程",
+          },
+          {
+            name: "张珠琛",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455184591.jpg",
+            position: "全栈开发",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "李林",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455153304.jpg",
+            position: "后端开发",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "田丰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+            position: "前端开发",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "王寒寒",
+            avatar:
+              "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
+            position: "前端开发",
+            role: "primary",
+            description: "软件工程",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    _id: 3,
+    name: "迎新",
+    description: "",
+    link: "",
+    timeline: [
+      {
+        title: "迎新大屏",
+        subtitle: "2023年9月-至今",
+        content:
+          "目前为曲阜师范大学网络空间安全学院迎新所用，计划推广到全校使用",
+        videos: [
+          {
+            url: "https://cyberdownload.anrunlu.net/f697001b-1062-4af7-b8e5-db0b4fbb71f6.mp4",
+          },
+        ],
+        imgs: [
+          "https://cyberdownload.anrunlu.net/FmrjBDkSsli85U6zDZRlh0ZJhMY3",
+          "https://cyberdownload.anrunlu.net/Fn7z_53vhS1MJSkw0dqi7fFr3MeC",
+          "https://cyberdownload.anrunlu.net/FtxMHuj7PGCb9rV_B05B-rkFMoeY",
+          "https://cyberdownload.anrunlu.net/FvqtLjq6GBBiZkh5G59YL5LjRRCQ",
+          "https://cyberdownload.anrunlu.net/FrWL1TifkF6x1dW5n7K0dugD1Y53",
+          "https://cyberdownload.anrunlu.net/FpDBz_TO77tWNk9BLCThfTxajAIw",
+          "https://cyberdownload.anrunlu.net/FoctYSeY-YTZ0zD6LB5Ps90IiWTE",
+          "https://cyberdownload.anrunlu.net/FpGtoMWRuYsVyjZrjt1_CDSqrUw4",
+          "https://cyberdownload.anrunlu.net/Fjte4zTc83JLoR6phRvRImRHMnKZ",
+          "https://cyberdownload.anrunlu.net/FqbZMAeYn29XwpFml-wH_vVJ5btD",
+        ],
+        members: [
+          {
+            name: "安润鲁",
+            avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+            position: "平台架构负责人、全栈开发",
+            role: "primary",
+            description: "",
+          },
+          {
+            name: "田丰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "王寒寒",
+            avatar:
+              "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师、平台运营",
             role: "secondary",
             description: "",
           },
