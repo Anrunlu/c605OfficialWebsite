@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <div class="row justify-center q-mt-lg">
+    <!-- <div class="row justify-center q-mt-lg">
       <q-card class="col-11 col-md-10 no-shadow">
         <div>
           <h5 class="text-center">
@@ -116,7 +116,7 @@
           </div>
         </div>
       </q-card>
-    </div>
+    </div> -->
   </q-page>
 </template>
 
