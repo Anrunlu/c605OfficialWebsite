@@ -300,14 +300,14 @@ const projectDetailsList = [
             role: "primary",
             description: "软件工程",
           },
-          {
-            name: "徐沛玉",
-            avatar:
-              "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
-            position: "运维",
-            role: "primary",
-            description: "物联网工程",
-          },
+          // {
+          //   name: "徐沛玉",
+          //   avatar:
+          //     "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+          //   position: "运维",
+          //   role: "primary",
+          //   description: "物联网工程",
+          // },
           {
             name: "田丰",
             avatar:
@@ -388,14 +388,14 @@ const projectDetailsList = [
             role: "primary",
             description: "软件工程",
           },
-          {
-            name: "徐沛玉",
-            avatar:
-              "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
-            position: "前端开发",
-            role: "primary",
-            description: "物联网工程",
-          },
+          // {
+          //   name: "徐沛玉",
+          //   avatar:
+          //     "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+          //   position: "前端开发",
+          //   role: "primary",
+          //   description: "物联网工程",
+          // },
           {
             name: "周子力",
             avatar:
@@ -482,14 +482,14 @@ const projectDetailsList = [
             role: "primary",
             description: "软件工程",
           },
-          {
-            name: "徐沛玉",
-            avatar:
-              "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
-            position: "团队成员",
-            role: "primary",
-            description: "物联网工程",
-          },
+          // {
+          //   name: "徐沛玉",
+          //   avatar:
+          //     "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+          //   position: "团队成员",
+          //   role: "primary",
+          //   description: "物联网工程",
+          // },
           {
             name: "张珠琛",
             avatar:
@@ -601,14 +601,14 @@ const projectDetailsList = [
           "https://cyberdownload.anrunlu.net/2021412984-1672314097225.png",
         ],
         members: [
-          {
-            name: "徐沛玉",
-            avatar:
-              "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
-            position: "项目负责人",
-            role: "primary",
-            description: "物联网工程",
-          },
+          // {
+          //   name: "徐沛玉",
+          //   avatar:
+          //     "https://cyberdownload.anrunlu.net/2021412977-1671455126431.jpg",
+          //   position: "项目负责人",
+          //   role: "primary",
+          //   description: "物联网工程",
+          // },
           {
             name: "张珠琛",
             avatar:
