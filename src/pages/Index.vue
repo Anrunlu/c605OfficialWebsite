@@ -124,6 +124,7 @@
 //主页轮播图大照片
 const imgList = [
   "https://cyberdownload.anrunlu.net/Fh6PfbkbUEA-KM8h3YryQfAyhimc",
+  "https://cyberdownload.anrunlu.net/logzc6PBl3KXXH0HY4i4Z27GQmjf",
   // "https://cyberdownload.anrunlu.net/Fn_k81SysKrchQn9E8RCknu_ybCC",
   "https://cyberdownload.anrunlu.net/Fn8NsPSj0Re3zgBPudZgBepOLFSl",
   // "https://cyberdownload.anrunlu.net/lv_aKPAt-VveEV60arUdjrMlhqqf",
