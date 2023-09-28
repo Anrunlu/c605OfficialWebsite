@@ -124,12 +124,12 @@
 //主页轮播图大照片
 const imgList = [
   "https://cyberdownload.anrunlu.net/Fh6PfbkbUEA-KM8h3YryQfAyhimc",
-  "https://cyberdownload.anrunlu.net/Fn_k81SysKrchQn9E8RCknu_ybCC",
+  // "https://cyberdownload.anrunlu.net/Fn_k81SysKrchQn9E8RCknu_ybCC",
   "https://cyberdownload.anrunlu.net/Fn8NsPSj0Re3zgBPudZgBepOLFSl",
   // "https://cyberdownload.anrunlu.net/lv_aKPAt-VveEV60arUdjrMlhqqf",
   "https://cyberdownload.anrunlu.net/FrrNPlQ1KSURXoHQxcbsqHGNOhUI",
   // "https://cyberdownload.anrunlu.net/lpEj-ERc9VUV0uyPP0HQ00LL12jF",
-  "https://cyberdownload.anrunlu.net/zhixin2.1shot/17thtiaozhanbei.png",
+  // "https://cyberdownload.anrunlu.net/zhixin2.1shot/17thtiaozhanbei.png",
   "https://cyberdownload.anrunlu.net/luayEv10Zeo2RRpr8Q460xleJZPE",
   // "https://cyberdownload.anrunlu.net/lkaCM3GnkeuvNjmizmbz7H0VeBDp",
   // "https://cyberdownload.anrunlu.net/FqqVbq1xE87lIwJM0Lc11JgQAtci",
