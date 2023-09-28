@@ -86,6 +86,11 @@ const tablinksData = [
     path: "projects",
     icon: "science",
   },
+    {
+    label: "学科竞赛",
+    path: "match",
+    icon: "account_tree",
+  },
   {
     label: "成员",
     path: "members",

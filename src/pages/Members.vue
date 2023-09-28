@@ -197,7 +197,7 @@ const softMembers = [
     members: [
       {
         name: "安润鲁",
-        avatar: "https://cyberdownload.anrunlu.net/zhixin2.1shot/arl6.png",
+        avatar: "https://cyberdownload.anrunlu.net/FiE50O7MpoqMB6Kj51fufdTyHeuK",
         position: "系统架构负责人",
         description: "",
       },
@@ -472,7 +472,7 @@ const allMembersJoinTimeline = [
       {
         name: "安润鲁",
         avatar:
-          "https://cyberdownload.anrunlu.net/zhixin2.1shot/%E8%AF%81%E4%BB%B6%E7%85%A7_%E5%AE%891.png",
+          "https://cyberdownload.anrunlu.net/FiE50O7MpoqMB6Kj51fufdTyHeuK",
         position: "2019级本科生",
         role: "primary",
         description: "软件工程",

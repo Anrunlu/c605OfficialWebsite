@@ -23,6 +23,11 @@ const routes = [
         name: "contact",
         component: () => import("pages/Contact.vue"),
       },
+      {
+        path: "match",
+        name: "match",
+        component: () => import("pages/Match.vue"),
+      },
     ],
   },
 
