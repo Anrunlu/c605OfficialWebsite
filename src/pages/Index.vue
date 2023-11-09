@@ -117,6 +117,21 @@
         </div>
       </q-card>
     </div> -->
+
+    <!-- 备案信息 -->
+    <div class="row justify-center q-mt-lg">
+      <div class="col-11 col-md-10">
+        <div class="text-center">
+          <a
+            href="https://beian.miit.gov.cn/"
+            target="_blank"
+            class="text-grey-8"
+          >
+            <small>鲁ICP备20007477号-3</small>
+          </a>
+        </div>
+      </div>
+    </div>
   </q-page>
 </template>
 
