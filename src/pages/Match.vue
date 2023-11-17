@@ -153,6 +153,111 @@ const matchDetailsList = [
     link: "",
     timeline: [
       {
+        title: "大学生创新训练项目计划",
+        subtitle: "2023年9月01日-2023年9月30日",
+        color: "",
+        content: `<p>为了积极响应国家对传染病预防的有力举措，降低传染病的危害，拟基于传染病知识图谱，建立传染疾病防控规则，结合时空演化模型预测数据，借助前期研究的图谱推理机制，切实提高数据预测和预案生成的准确性。本项目拟研发知识驱动的传染病时空演化与预案生成一体化平台，用于辅助中国疾病预防控制中心(CDC)对37种法定传染性疾病的实时网络监测系统，以个人、医院、政府为主要导向生成“三位一体”的防控预案，为降低传染病危害做出一定贡献。</p>`,
+        imgs: [
+          "https://cyberdownload.anrunlu.net/Fuw9sSkjkfN4xQJZ7jMwxJftU6lD",
+        ],
+        members: [
+          {
+            name: "王艳娜",
+            avatar:
+              "https://cyberdownload.anrunlu.net/Fk_1SDcWMlkXFZfdmiCi8Pv49pcs",
+            position: "指导老师",
+            role: "secondary",
+            description: "讲师",
+          },
+          {
+            name: "王寒寒",
+            avatar:
+              "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "田丰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "张吉祥",
+            avatar:
+              "https://cyberdownload.anrunlu.net/FjJr0hPls5FtQ3gr1RG5ddhvIthd",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "战秀臣",
+            avatar:
+              "https://cyberdownload.anrunlu.net/Fja71fDDXqdRqSS6w8ew0SqrUfVl",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+        ],
+      },
+      {
+        title: "山东省软件设计大赛",
+        subtitle: "2023年9月01日-2023年9月30日",
+        color: "",
+        content: `<p>这是一个基于知识图谱的文件存储系统，提供了一种创新的方式来管理和可视化用户的文件。与传统的文件存储系统相比，该系统通过利用知识图谱技术，将文件之间的关联关系以直观的图形方式展示给用户。</p>`,
+        imgs: [
+          "https://cyberdownload.anrunlu.net/Fs3Z9NKBGQnNu6kc1DWVeMe_MRQN",
+          "https://cyberdownload.anrunlu.net/Fi7KJiJq9al-wWYEBS0PhfGJwQdF",
+          "https://cyberdownload.anrunlu.net/Fgv0TD2lA4ZKGGxKD2EkwgqwjC5C",
+          "https://cyberdownload.anrunlu.net/FuBuJ3E_3iNpf5dx7kVE5_IEuQra",
+        ],
+        members: [
+          {
+            name: "周子力",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455059780.png",
+            position: "指导老师",
+            role: "secondary",
+            description: "副教授",
+          },
+          {
+            name: "王寒寒",
+            avatar:
+              "https://cyberdownload.anrunlu.net/FmUE6tFhp8G1BpGOL-Gsb4cGL1Gu",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "田丰",
+            avatar:
+              "https://cyberdownload.anrunlu.net/2021412977-1671455199522.jpg",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "张吉祥",
+            avatar:
+              "https://cyberdownload.anrunlu.net/FjJr0hPls5FtQ3gr1RG5ddhvIthd",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+          {
+            name: "战秀臣",
+            avatar:
+              "https://cyberdownload.anrunlu.net/Fja71fDDXqdRqSS6w8ew0SqrUfVl",
+            position: "团队成员",
+            role: "primary",
+            description: "软件工程",
+          },
+        ],
+      },
+      {
         title: "第十八届“挑战杯”曲阜师范大学大学生课外学术科技作品竞赛",
         subtitle: "2022年10月07日-2023年06月30日",
         color: "",
